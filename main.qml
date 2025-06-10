@@ -24,6 +24,8 @@ Window {
     property string outputPath: "qm.mdb"
     property string preOutputScript: ""
     property string postOutputScript: ""
+    property bool showArchived: true
+    property bool showTranslated: true
 
     Settings {
         property alias darkMode: window.darkMode
@@ -34,6 +36,12 @@ Window {
         property alias outputPath: window.outputPath
         property alias preOutputScript: window.preOutputScript
         property alias postOutputScript: window.postOutputScript
+        property alias showArchived: window.showArchived
+        property alias showTranslated: window.showTranslated
+    }
+
+    Component.onCompleted: {
+        itemModel.setFilters(window.showArchived, window.showTranslated);
     }
 
     TabBar {
@@ -94,16 +102,22 @@ Window {
                     id: showTranslatedSwitch
                     text: qsTr("Afficher items déjà traduits")
 
-                    checked: true
-                    onClicked: itemModel.setFilters(showArchivedSwitch.checked, checked)
+                    checked: window.showTranslated
+                    onClicked: {
+                        window.showTranslated = checked
+                        itemModel.setFilters(showArchivedSwitch.checked, checked)
+                        }
                 }
 
                 Switch {
                     id: showArchivedSwitch
                     text: qsTr("Afficher items archivés")
 
-                    checked: true
-                    onClicked: itemModel.setFilters(checked, showTranslatedSwitch.checked)
+                    checked: window.showArchived
+                    onClicked: {
+                        window.showArchived = checked
+                        itemModel.setFilters(checked, showTranslatedSwitch.checked)
+                        }
                 }
             }
             ListView {
