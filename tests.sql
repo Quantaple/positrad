@@ -1,0 +1,16 @@
+INSERT INTO Item (UniqueID, Title, Translation, Archived)
+VALUES
+(10000001, '5oz T. BOEUF', '5oz T. BEEF', FALSE),
+(10000002, '8oz T. BOEUF', '8oz T. BEEF', TRUE),
+(10000003, '5oz T. SAUMON', '5oz T. SALMON', FALSE),
+(10000004, '8oz T. SAUMON', '8oz T. SALMON', TRUE),
+(10000005, '5oz T. THON', '', FALSE),
+(10000006, '8oz T. THON', '', TRUE),
+(10000007, '5oz T. CREV', '5oz T. SHRIMP', FALSE),
+(10000008, '8oz T. CREV', '', FALSE);
+
+INSERT INTO Screen (UniqueID, Title, Translation, Archived)
+VALUES
+(60000001, 'TARTARES', 'TARTARS', FALSE),
+(60000002, 'COMBOS', 'COMBOS', TRUE),
+(60000003, 'DIVERS', '', FALSE);

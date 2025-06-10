@@ -19,11 +19,21 @@ Window {
     Material.theme: darkMode? Material.Dark : Material.Light
 
     property bool darkMode: true
+    property string sourceFile: "C:\\SC\\"
+    property string odbcConnectionString: "DSN=qmdb"
+    property string outputPath: "qm.mdb"
+    property string preOutputScript: ""
+    property string postOutputScript: ""
 
     Settings {
         property alias darkMode: window.darkMode
+        property alias sourceFile: window.sourceFile
+        property alias odbcConnectionString: window.odbcConnectionString
         property alias width: window.width
         property alias height: window.height
+        property alias outputPath: window.outputPath
+        property alias preOutputScript: window.preOutputScript
+        property alias postOutputScript: window.postOutputScript
     }
 
     TabBar {
@@ -105,9 +115,14 @@ Window {
 
                 anchors.topMargin: 88
 
-                spacing: 10
+                spacing: 16
 
                 model: itemModel
+
+                ScrollBar.vertical: ScrollBar {
+                    policy: ScrollBar.AlwaysOn
+                    width: 16
+                }
 
                 delegate: Rectangle {
                     //width: parent.width
@@ -115,7 +130,7 @@ Window {
                     anchors.right: parent.right
                     height: 80
                     radius: 20
-                    color: Material.primary
+                    color: index%2 == 0? Material.primary : Material.color(Material.Green, Material.Shade800)
                     //color: Material.background
 
                     // TODO Should not hide while we're still focused on translationTextField
@@ -142,6 +157,8 @@ Window {
                             placeholderText: qsTr("Traduction")
                             text: model.Translation
                             maximumLength: 22
+
+                            onEditingFinished: itemModel.setTranslation(index, text)
                         }
                         Switch {
                             text: qsTr("Archiver")
@@ -151,7 +168,7 @@ Window {
                             checked: model.Archived
                             focusPolicy: Qt.NoFocus
 
-                            //onClicked: model.Archived = checked
+                            onClicked: itemModel.setArchived(index, checked)
                         }
                     }
                 }
@@ -168,20 +185,142 @@ Window {
 
         } // End Others pane
         Pane { // Quit pane
-
-        } // End Quit pane
-        Pane { // Settings pane
             Column {
-                anchors.fill: parent
-                spacing: 10
+                //anchors.fill: parent
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+                spacing: 32
 
-                Switch {
-                    text: qsTr("Mode sombre")
-                    checked: window.darkMode
+                Button {
+                    text: qsTr("Générer la traduction et quitter")
+                    width: 384
+                    height: 96
+                    icon.source: "assets/publish.svg"
+                    icon.color: Material.color(Material.Blue)
+                    onClicked: Qt.quit()
+                }
 
-                    onClicked: window.darkMode = checked
+                Button {
+                    text: qsTr("Quitter")
+                    width: 384
+                    height: 96
+                    icon.source: "assets/close.svg"
+                    icon.color: Material.color(Material.Red)
+                    onClicked: Qt.quit()
                 }
             }
+        } // End Quit pane
+        Pane { // Settings pane
+            id: settingsPane
+            ScrollView {
+                anchors.fill: parent
+                ScrollBar.vertical.policy: ScrollBar.AlwaysOn
+                ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
+                Column {
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    spacing: 32
+
+                    Switch {
+                        text: qsTr("Mode sombre")
+                        checked: window.darkMode
+
+                        onClicked: window.darkMode = checked
+                    }
+
+                    GroupBox {
+                        title: qsTr("Paramètres POSiTouch")
+
+                        //anchors.left: parent.left
+                        //anchors.right: parent.right
+
+                        Column {
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            spacing: 16
+
+                            TextField {
+                                width: 400
+                                placeholderText: qsTr("Connexion à ODBC")
+                                text: window.odbcConnectionString
+                                onEditingFinished: window.odbcConnectionString = text
+                            }
+
+                            TextField {
+                                width: 400
+                                placeholderText: qsTr("Fichier source (ex: C:\\SC\\qm.mdb)")
+                                text: window.sourceFile
+                                onEditingFinished: window.sourceFile = text
+                            }
+                        }
+                    }
+
+                    GroupBox {
+                        title: qsTr("Paramètres d'exportation")
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+
+                        Column {
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            spacing: 16
+
+                            TextField {
+                                width: 400
+                                placeholderText: qsTr("Exporter vers...")
+                                text: window.outputPath
+                                onEditingFinished: window.outputPath = text
+                            }
+
+                            TextField {
+                                width: 400
+                                placeholderText: qsTr("Script éxécuté avant l'exportation")
+                                text: window.preOutputScript
+                                onEditingFinished: window.preOutputScript = text
+                            }
+
+                            TextField {
+                                width: 400
+                                placeholderText: qsTr("Script après l'exportation")
+                                text: window.postOutputScript
+                                onEditingFinished: window.postOutputScript = text
+                            }
+                        }
+                    }
+
+                    GroupBox {
+                        title: qsTr("À propos")
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        Column {
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            spacing: 16
+
+
+                            Text {
+                                text: qsTr("POSiTrad")
+                                color: Material.accent
+                                font.pixelSize: 24
+                                font.bold: true
+                            }
+
+                            Text {
+                                text: qsTr("Outil pour simplifier le maintient de différentes versions d'un menu.")
+                                wrapMode: Text.WordWrap
+                                color: Material.foreground
+                            }
+
+                            Text {
+                                text: qsTr("Auteur: Martin Lapierre Pitre (C) CLS Info 2025")
+                                wrapMode: Text.WordWrap
+                                color: Material.foreground
+                            }
+                        }
+                    }
+                }
+            }
+
         } //// End Settings pane
     }
 }

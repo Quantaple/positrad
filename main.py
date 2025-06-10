@@ -1,5 +1,5 @@
 # This Python file uses the following encoding: utf-8
-import sys, os
+import sys, os, sqlite3
 from pathlib import Path
 import argparse
 
@@ -7,8 +7,9 @@ from PySide6.QtCore import QSettings
 from PySide6.QtGui import QGuiApplication
 from PySide6.QtQml import QQmlApplicationEngine
 
-from translation import Translatable
-from ItemModel import ItemModel
+from logger import logger
+from translation import Translatable, TranslationRepo, TranslationTables
+from ItemModel import TranslatableModel
 
 # ============================================================================
 # Parameters =================================================================
@@ -17,8 +18,12 @@ from ItemModel import ItemModel
 ORG_NAME = "CLSInfo"
 APP_NAME = "POSiTrad"
 
-DEFAULT_DB_PATH = "trad.db"
+DB_PATH = "trad.db"
 """ Default location of the POSiTrad database """
+WORKING_QM_PATH = "tempqm.mdb"
+""" Default location of the working qm.mdb file """
+DEFAULT_OUTPUT_PATH = "qm.mdb"
+""" Default location of the output qm.mdb file """
 DEFAULT_POSITOUCH_PATH = "C:\\SC\\"
 """ Default location of the qm.mdb file """
 DEFAULT_ODBC_CONNECTION_STRING = "DSN=qmdb"
@@ -42,18 +47,28 @@ parser.add_argument("--translate",
 # Main =======================================================================
 # ============================================================================
 
-testItems = [
-    Translatable(UniqueID=1000001, Title="PT TARTARE BOEUF", Translation="SM BEEF TARTAR", Archived=False),
-    Translatable(UniqueID=1000002, Title="GR TARTARE BOEUF", Translation="LG BEEF TARTAR", Archived=False),
-    Translatable(UniqueID=1000003, Title="PT TARTARE SAUMON", Translation="SM SALMON TARTAR", Archived=False),
-    Translatable(UniqueID=1000004, Title="GR TARTARE SAUMON", Translation="", Archived=False),
-    Translatable(UniqueID=1000005, Title="PT TARTARE CREV", Translation="SM SHRIMP TARTAR", Archived=True),
-    Translatable(UniqueID=1000006, Title="LG TARTARE CREV", Translation="LG SHRIMP TARTAR", Archived=True)
-]
-
 if __name__ == "__main__":
+    logger.info("Starting POSiTrad...")
+
+    # Check for the POSiTrad database; create if it doesn't exist
+    if not os.path.isfile(DB_PATH):
+        db = sqlite3.connect(DB_PATH)
+        logger.info("Database not found, creating a new one at %s", DB_PATH)
+        cursor = db.cursor()
+        for f in os.listdir('schema'):
+            path = os.path.join('schema', f)
+            with open(path, 'r') as script:
+                logger.info("Executing schema script %s...", path)
+                cursor.executescript(script.read())
+        with open('tests.sql', 'r') as script:
+            logger.info("Filling database with test data from %s...", 'tests.sql')
+            cursor.executescript(script.read()) # For testing purposes
+
+    translationRepo = TranslationRepo(DB_PATH)
+
 
     # Launch our GUI
+    logger.info("Launching GUI...")
     app = QGuiApplication(sys.argv)
     app.setOrganizationName("CLSInfo")
     app.setApplicationName("POSiTrad")
@@ -61,8 +76,8 @@ if __name__ == "__main__":
     qml_file = Path(__file__).resolve().parent / "main.qml"
 
 
-    itemModel = ItemModel()
-    itemModel.setItemList(testItems)
+    itemModel = TranslatableModel(translationRepo)
+    itemModel.setItemList(translationRepo.getList(TranslationTables.Item))
     engine.rootContext().setContextProperty("itemModel", itemModel)
     
     engine.load(qml_file)
@@ -71,5 +86,7 @@ if __name__ == "__main__":
         sys.exit(-1)
 
     code = app.exec()
+
+    logger.info("POSiTrad finished with code %d", code)
 
     sys.exit(code)

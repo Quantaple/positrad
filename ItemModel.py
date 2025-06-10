@@ -1,17 +1,24 @@
 from typing import List, Any
 
-from translation import Translatable
+from PySide6.QtCore import QAbstractListModel, QObject, QModelIndex, QPersistentModelIndex, Qt, QByteArray, Slot
 
-from PySide6.QtCore import QAbstractListModel, QObject, QModelIndex, Qt, QByteArray, Slot
+from translation import Translatable, TranslationRepo, TranslationTables
+from logger import logger
+
+
 
 # Basé sur https://forum.qt.io/topic/144918/pyside6-pass-custom-listmodel-to-listview/3
-class ItemModel(QAbstractListModel):
+class TranslatableModel(QAbstractListModel):
     _itemList: List[Translatable] = []
 
     _displayedList: List[Translatable] = []
 
-    def __init__(self):
+    _repo: TranslationRepo
+
+    def __init__(self, repo: TranslationRepo):
         super().__init__()
+
+        self._repo = repo
 
     def setItemList(self, itemList: List[Translatable]):
         self._itemList = itemList
@@ -20,12 +27,32 @@ class ItemModel(QAbstractListModel):
     @Slot(bool,bool)
     def setFilters(self, showArchived: bool, showTranslated: bool):
         self.beginResetModel()
-        self._displayedList = [t for t in self._itemList if showArchived or not t.Archived and showTranslated or len(t.Translation) == 0]
+        self._displayedList = [t for t in self._itemList if (showArchived or not t.Archived) and (showTranslated or len(t.Translation) == 0)]
+        print(f"Model was reset to size {len(self._displayedList)}")
         self.endResetModel()
         self.layoutChanged.emit()
 
+    @Slot(int, bool)
+    def setArchived(self, index: int, archived: bool):
+        """ Set the archived status of an item at the given index. """
+        logger.debug(f"Setting archived status for index {index} to {archived}")
+        
+        item = self._displayedList[index]
+        item.Archived = archived
+        self._repo.updateTranslation(TranslationTables.Item, item)
+        logger.info(f"Item {item.UniqueID} archived status set to {archived}")
 
-    def data(self, index: QModelIndex, role: int = Qt.ItemDataRole.DisplayRole) -> Any:
+    @Slot(int, str)
+    def setTranslation(self, index: int, translation: str):
+        """ Set the translation of an item at the given index. """
+        logger.debug(f"Setting translation for index {index} to '{translation}'")
+        
+        item = self._displayedList[index]
+        item.Translation = translation
+        self._repo.updateTranslation(TranslationTables.Item, item)
+        logger.info(f"Item {item.UniqueID} translation set to '{translation}'")
+
+    def data(self, index: QModelIndex | QPersistentModelIndex, role: int = Qt.ItemDataRole.DisplayRole) -> Any:
         row = index.row()
         if not index.isValid() or row >= len(self._displayedList):
             return None
@@ -44,11 +71,11 @@ class ItemModel(QAbstractListModel):
             
     def roleNames(self) -> dict[int, QByteArray]:
         return {
-            Qt.ItemDataRole.UserRole + 1: b'UniqueID',
-            Qt.ItemDataRole.UserRole + 2: b'Title',
-            Qt.ItemDataRole.UserRole + 3: b'Translation',
-            Qt.ItemDataRole.UserRole + 4: b'Archived'
+            Qt.ItemDataRole.UserRole + 1: QByteArray(b'UniqueID'),
+            Qt.ItemDataRole.UserRole + 2: QByteArray(b'Title'),
+            Qt.ItemDataRole.UserRole + 3: QByteArray(b'Translation'),
+            Qt.ItemDataRole.UserRole + 4: QByteArray(b'Archived')
         }
     
-    def rowCount(self, index: QModelIndex = QModelIndex()) -> int:
+    def rowCount(self, parent: QModelIndex | QPersistentModelIndex = QModelIndex()) -> int:
         return len(self._displayedList)
