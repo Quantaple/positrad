@@ -25,6 +25,8 @@ class TranslationTables(StrEnum):
     Unknown = '** Unknown **'
     Item = 'Item'
     Screen = 'Screen'
+    Menu = 'Menu'
+    Misc = 'Misc'
 
 class TranslationRepo:
     path: str = ''

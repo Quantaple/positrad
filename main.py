@@ -79,6 +79,18 @@ if __name__ == "__main__":
     itemModel = TranslatableModel(translationRepo)
     itemModel.setItemList(translationRepo.getList(TranslationTables.Item))
     engine.rootContext().setContextProperty("itemModel", itemModel)
+
+    screenModel = TranslatableModel(translationRepo)
+    screenModel.setItemList(translationRepo.getList(TranslationTables.Screen))
+    engine.rootContext().setContextProperty("screenModel", screenModel)
+
+    menuModel = TranslatableModel(translationRepo)
+    menuModel.setItemList(translationRepo.getList(TranslationTables.Menu))
+    engine.rootContext().setContextProperty("menuModel", menuModel)
+
+    miscModel = TranslatableModel(translationRepo)
+    miscModel.setItemList(translationRepo.getList(TranslationTables.Misc))
+    engine.rootContext().setContextProperty("miscModel", miscModel)
     
     engine.load(qml_file)
     

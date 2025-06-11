@@ -42,6 +42,7 @@ Window {
 
     Component.onCompleted: {
         itemModel.setFilters(window.showArchived, window.showTranslated);
+        itemModel.refreshList()
     }
 
     TabBar {
@@ -80,51 +81,74 @@ Window {
         }
     }
 
+    ToolBar {
+        id: toolBar
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: navBar.bottom
+
+        Material.background: Material.background
+
+        //height: 88
+        Row {
+            anchors.fill: parent
+            anchors.topMargin: 8
+            anchors.bottomMargin: 8
+            visible: paneStack.currentIndex !== 4 && paneStack.currentIndex !== 5 // Hide toolbar when on Quit or Settings panes
+            spacing: 8
+
+            Switch {
+                id: showTranslatedSwitch
+                text: qsTr("Afficher items déjà traduits")
+
+                checked: window.showTranslated
+                onClicked: {
+                    window.showTranslated = checked
+                    itemModel.setFilters(showArchivedSwitch.checked, checked)
+                    itemModel.refreshList()
+                    }
+
+                    ToolTip.delay: 1000
+                    ToolTip.timeout: 5000
+                    ToolTip.text: qsTr("Déasactiver cette option permet de ne voir que les items qui n'ont pas encore été traduits.")
+                    ToolTip.visible: hovered
+            }
+
+            Switch {
+                id: showArchivedSwitch
+                text: qsTr("Afficher items archivés")
+
+                checked: window.showArchived
+                onClicked: {
+                    window.showArchived = checked
+                    itemModel.setFilters(checked, showTranslatedSwitch.checked)
+                    itemModel.refreshList()
+                    }
+
+                ToolTip.delay: 1000
+                ToolTip.timeout: 5000
+                ToolTip.text: qsTr("Désactiver cette option permet de ne pas voir les items archivés.")
+                ToolTip.visible: hovered
+            }
+        }
+    }
+
     StackLayout {
+        id: paneStack
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.bottom: parent.bottom
-        anchors.top: navBar.bottom
+        anchors.top: toolBar.bottom
 
         currentIndex: navBar.currentIndex
 
         Pane { // Items pane
-            Row {
-                id: itemsToolbar
 
-                anchors.left: parent.left
-                anchors.right: parent.right
-                anchors.top: parent.top
-
-                spacing: 10
-
-                Switch {
-                    id: showTranslatedSwitch
-                    text: qsTr("Afficher items déjà traduits")
-
-                    checked: window.showTranslated
-                    onClicked: {
-                        window.showTranslated = checked
-                        itemModel.setFilters(showArchivedSwitch.checked, checked)
-                        }
-                }
-
-                Switch {
-                    id: showArchivedSwitch
-                    text: qsTr("Afficher items archivés")
-
-                    checked: window.showArchived
-                    onClicked: {
-                        window.showArchived = checked
-                        itemModel.setFilters(checked, showTranslatedSwitch.checked)
-                        }
-                }
-            }
             ListView {
 
                 anchors.left: parent.left
                 anchors.right: parent.right
-                anchors.top: itemsToolbar.bottom
+                anchors.top: parent.top
                 anchors.bottom: parent.bottom
 
                 anchors.topMargin: 88
@@ -142,13 +166,11 @@ Window {
                     //width: parent.width
                     anchors.left: parent.left
                     anchors.right: parent.right
+                    anchors.rightMargin: 18
                     height: 80
                     radius: 20
                     color: index%2 == 0? Material.primary : Material.color(Material.Green, Material.Shade800)
-                    //color: Material.background
 
-                    // TODO Should not hide while we're still focused on translationTextField
-                    //visible: (showTranslatedSwitch.checked || translationTextField.text.length == 0) && (!model.Archived || showArchivedSwitch.checked)
                     Row {
                         anchors.fill: parent
                         anchors.leftMargin: 8
@@ -157,7 +179,7 @@ Window {
                         anchors.bottomMargin: 8
                         spacing: 10
                         Text {
-                            width: parent.width/3 - 16
+                            width: parent.width/4
                             anchors.top: translationTextField.top
                             anchors.bottom: translationTextField.bottom
                             verticalAlignment: Text.AlignVCenter
@@ -166,7 +188,7 @@ Window {
                             font.bold: true
                         }
                         TextField {
-                            width: parent.width/3 - 16
+                            width: parent.width/4
                             id: translationTextField
                             placeholderText: qsTr("Traduction")
                             text: model.Translation
@@ -182,7 +204,17 @@ Window {
                             checked: model.Archived
                             focusPolicy: Qt.NoFocus
 
-                            onClicked: itemModel.setArchived(index, checked)
+                            onClicked: {
+                                itemModel.setArchived(index, checked)
+                                if (checked) {
+                                    itemModel.refreshList()
+                                }
+                            }
+
+                            ToolTip.delay: 1000
+                            ToolTip.timeout: 5000
+                            ToolTip.text: qsTr("Archiver cet item permet de le cacher. Vous pouvez le retrouver en activant l'option 'Afficher items archivés'.")
+                            ToolTip.visible: hovered
                         }
                     }
                 }
@@ -190,14 +222,236 @@ Window {
 
         } // End Items pane
         Pane { // Screens pane
+            ListView {
 
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+
+                anchors.topMargin: 88
+
+                spacing: 16
+
+                model: screenModel
+
+                ScrollBar.vertical: ScrollBar {
+                    policy: ScrollBar.AlwaysOn
+                    width: 16
+                }
+
+                delegate: Rectangle {
+                    //width: parent.width
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    anchors.rightMargin: 18
+                    height: 80
+                    radius: 20
+                    color: index%2 == 0? Material.color(Material.Purple) : Material.color(Material.Purple, Material.Shade800)
+
+                    Row {
+                        anchors.fill: parent
+                        anchors.leftMargin: 8
+                        anchors.rightMargin: 8
+                        anchors.topMargin: 8
+                        anchors.bottomMargin: 8
+                        spacing: 10
+                        Text {
+                            width: parent.width/4
+                            anchors.top: translationTextField.top
+                            anchors.bottom: translationTextField.bottom
+                            verticalAlignment: Text.AlignVCenter
+                            color: Material.foreground
+                            text: model.Title
+                            font.bold: true
+                        }
+                        TextField {
+                            width: parent.width/4
+                            id: translationTextField
+                            placeholderText: qsTr("Traduction")
+                            text: model.Translation
+                            maximumLength: 22
+
+                            onEditingFinished: screenModel.setTranslation(index, text)
+                        }
+                        Switch {
+                            text: qsTr("Archiver")
+                            anchors.top: translationTextField.top
+                            anchors.bottom: translationTextField.bottom
+
+                            checked: model.Archived
+                            focusPolicy: Qt.NoFocus
+
+                            onClicked: {
+                                screenModel.setArchived(index, checked)
+                                if (checked) {
+                                    screenModel.refreshList()
+                                }
+                            }
+
+                            ToolTip.delay: 1000
+                            ToolTip.timeout: 5000
+                            ToolTip.text: qsTr("Archiver cet item permet de le cacher. Vous pouvez le retrouver en activant l'option 'Afficher items archivés'.")
+                            ToolTip.visible: hovered
+                        }
+                    }
+                }
+            }
         } // End screens pane
         Pane { // Menus pane
+            ListView {
 
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+
+                anchors.topMargin: 88
+
+                spacing: 16
+
+                model: menuModel
+
+                ScrollBar.vertical: ScrollBar {
+                    policy: ScrollBar.AlwaysOn
+                    width: 16
+                }
+
+                delegate: Rectangle {
+                    //width: parent.width
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    anchors.rightMargin: 18
+                    height: 80
+                    radius: 20
+                    color: index%2 == 0? Material.color(Material.Pink) : Material.color(Material.Pink, Material.Shade800)
+
+                    Row {
+                        anchors.fill: parent
+                        anchors.leftMargin: 8
+                        anchors.rightMargin: 8
+                        anchors.topMargin: 8
+                        anchors.bottomMargin: 8
+                        spacing: 10
+                        Text {
+                            width: parent.width/4
+                            anchors.top: translationTextField.top
+                            anchors.bottom: translationTextField.bottom
+                            verticalAlignment: Text.AlignVCenter
+                            color: Material.foreground
+                            text: model.Title
+                            font.bold: true
+                        }
+                        TextField {
+                            width: parent.width/4
+                            id: translationTextField
+                            placeholderText: qsTr("Traduction")
+                            text: model.Translation
+                            maximumLength: 22
+
+                            onEditingFinished: menuModel.setTranslation(index, text)
+                        }
+                        Switch {
+                            text: qsTr("Archiver")
+                            anchors.top: translationTextField.top
+                            anchors.bottom: translationTextField.bottom
+
+                            checked: model.Archived
+                            focusPolicy: Qt.NoFocus
+
+                            onClicked: {
+                                menuModel.setArchived(index, checked)
+                                if (checked) {
+                                    menuModel.refreshList()
+                                }
+                            }
+
+                            ToolTip.delay: 1000
+                            ToolTip.timeout: 5000
+                            ToolTip.text: qsTr("Archiver cet item permet de le cacher. Vous pouvez le retrouver en activant l'option 'Afficher items archivés'.")
+                            ToolTip.visible: hovered
+                        }
+                    }
+                }
+            }
         } // End Menus pane
-        Pane { // Others pane
+        Pane { // Misc pane
+            ListView {
 
-        } // End Others pane
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+
+                anchors.topMargin: 88
+
+                spacing: 16
+
+                model: miscModel
+
+                ScrollBar.vertical: ScrollBar {
+                    policy: ScrollBar.AlwaysOn
+                    width: 16
+                }
+
+                delegate: Rectangle {
+                    //width: parent.width
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    anchors.rightMargin: 18
+                    height: 80
+                    radius: 20
+                    color: index%2 == 0? Material.color(Material.Orange) : Material.color(Material.Orange, Material.Shade800)
+
+                    Row {
+                        anchors.fill: parent
+                        anchors.leftMargin: 8
+                        anchors.rightMargin: 8
+                        anchors.topMargin: 8
+                        anchors.bottomMargin: 8
+                        spacing: 10
+                        Text {
+                            width: parent.width/4
+                            anchors.top: translationTextField.top
+                            anchors.bottom: translationTextField.bottom
+                            verticalAlignment: Text.AlignVCenter
+                            color: Material.foreground
+                            text: model.Title
+                            font.bold: true
+                        }
+                        TextField {
+                            width: parent.width/4
+                            id: translationTextField
+                            placeholderText: qsTr("Traduction")
+                            text: model.Translation
+                            maximumLength: 22
+
+                            onEditingFinished: miscModel.setTranslation(index, text)
+                        }
+                        Switch {
+                            text: qsTr("Archiver")
+                            anchors.top: translationTextField.top
+                            anchors.bottom: translationTextField.bottom
+
+                            checked: model.Archived
+                            focusPolicy: Qt.NoFocus
+
+                            onClicked: {
+                                miscModel.setArchived(index, checked)
+                                if (checked) {
+                                    miscModel.refreshList()
+                                }
+                            }
+
+                            ToolTip.delay: 1000
+                            ToolTip.timeout: 5000
+                            ToolTip.text: qsTr("Archiver cet item permet de le cacher. Vous pouvez le retrouver en activant l'option 'Afficher items archivés'.")
+                            ToolTip.visible: hovered
+                        }
+                    }
+                }
+            }
+        } // End Misc pane
         Pane { // Quit pane
             Column {
                 //anchors.fill: parent

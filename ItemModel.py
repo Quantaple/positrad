@@ -31,11 +31,9 @@ class TranslatableModel(QAbstractListModel):
     def setFilters(self, showArchived: bool, showTranslated: bool):
         self._showArchived = showArchived
         self._showTranslated = showTranslated
-        self.beginResetModel()
         self._displayedList = [t for t in self._itemList if (showArchived or not t.Archived) and (showTranslated or len(t.Translation) == 0)]
         print(f"Model was reset to size {len(self._displayedList)}")
-        self.endResetModel()
-        self.layoutChanged.emit()
+        self.refreshList()
 
     @Slot()
     def refreshList(self):
@@ -71,7 +69,6 @@ class TranslatableModel(QAbstractListModel):
         item.Translation = translation
         self._repo.updateTranslation(TranslationTables.Item, item)
         logger.info(f"Item {item.UniqueID} translation set to '{translation}'")
-        self.refreshList()
 
     def data(self, index: QModelIndex | QPersistentModelIndex, role: int = Qt.ItemDataRole.DisplayRole) -> Any:
         row = index.row()
