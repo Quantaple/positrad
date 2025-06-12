@@ -4,7 +4,7 @@ from pathlib import Path
 import argparse
 
 from PySide6.QtCore import QSettings
-from PySide6.QtGui import QGuiApplication
+from PySide6.QtGui import QGuiApplication, QIcon
 from PySide6.QtQml import QQmlApplicationEngine
 
 from logger import logger
@@ -17,6 +17,7 @@ from ItemModel import TranslatableModel
 
 ORG_NAME = "CLSInfo"
 APP_NAME = "POSiTrad"
+VERSION = "alpha 0.1.0"
 
 DB_PATH = "trad.db"
 """ Default location of the POSiTrad database """
@@ -71,10 +72,11 @@ if __name__ == "__main__":
     logger.info("Launching GUI...")
     app = QGuiApplication(sys.argv)
     app.setOrganizationName("CLSInfo")
-    app.setApplicationName("POSiTrad")
+    app.setApplicationName(APP_NAME)
+    app.setApplicationVersion(VERSION)
+    app.setWindowIcon(QIcon("assets/icon.png"))
     engine = QQmlApplicationEngine()
     qml_file = Path(__file__).resolve().parent / "main.qml"
-
 
     itemModel = TranslatableModel(translationRepo)
     itemModel.setItemList(translationRepo.getList(TranslationTables.Item))

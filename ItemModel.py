@@ -70,6 +70,16 @@ class TranslatableModel(QAbstractListModel):
         self._repo.updateTranslation(TranslationTables.Item, item)
         logger.info(f"Item {item.UniqueID} translation set to '{translation}'")
 
+    @Slot(result=int)
+    def countAll(self) -> int:
+        """ Returns the total number of items in the model. """
+        return len(self._itemList)
+    
+    @Slot(result=int)
+    def countDisplayed(self) -> int:
+        """ Returns the number of items currently displayed in the model. """
+        return len(self._displayedList)
+
     def data(self, index: QModelIndex | QPersistentModelIndex, role: int = Qt.ItemDataRole.DisplayRole) -> Any:
         row = index.row()
         if not index.isValid() or row >= len(self._displayedList):

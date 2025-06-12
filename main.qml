@@ -19,16 +19,40 @@ Window {
     Material.theme: darkMode? Material.Dark : Material.Light
 
     property bool darkMode: true
+    property bool allowGenerateAndQuit: true
     property string sourceFile: "C:\\SC\\"
     property string odbcConnectionString: "DSN=qmdb"
     property string outputPath: "qm.mdb"
     property string preOutputScript: ""
     property string postOutputScript: ""
+    property int backupCount: 5
+    property string backupPath: "backup\\"
     property bool showArchived: true
     property bool showTranslated: true
 
+    function updateItemCountText() {
+        var total = 0
+        var displayed = 0
+        var model = null
+        if (navBar.currentIndex == 0) {
+            model = itemModel
+        } else if (navBar.currentIndex == 1) {
+            model = screenModel
+        } else if (navBar.currentIndex == 2) {
+            model = menuModel
+        } else if (navBar.currentIndex == 3) {
+            model = miscModel
+        }
+        if (model === null) {
+            itemCountText.text = qsTr("Aucun item à afficher")
+        } else {
+            itemCountText.text = qsTr("Items affichés: %0/%1").arg(model.countDisplayed()).arg(model.countAll())
+        }
+    }
+
     Settings {
         property alias darkMode: window.darkMode
+        property alias allowGenerateAndQuit: window.allowGenerateAndQuit
         property alias sourceFile: window.sourceFile
         property alias odbcConnectionString: window.odbcConnectionString
         property alias width: window.width
@@ -36,19 +60,46 @@ Window {
         property alias outputPath: window.outputPath
         property alias preOutputScript: window.preOutputScript
         property alias postOutputScript: window.postOutputScript
+        property alias backupCount: window.backupCount
+        property alias backupPath: window.backupPath
         property alias showArchived: window.showArchived
         property alias showTranslated: window.showTranslated
     }
 
+    Toastify {
+        id: toastManager
+    }
+
     Component.onCompleted: {
         itemModel.setFilters(window.showArchived, window.showTranslated);
-        itemModel.refreshList()
+        screenModel.setFilters(window.showArchived, window.showTranslated);
+        menuModel.setFilters(window.showArchived, window.showTranslated);
+        miscModel.setFilters(window.showArchived, window.showTranslated);
+        updateItemCountText()
     }
 
     TabBar {
         id: navBar
         anchors.left: parent.left
         anchors.right: parent.right
+
+        onCurrentIndexChanged: {
+            var model = null
+            if (currentIndex == 0) {
+                model = itemModel
+            } else if (currentIndex == 1) {
+                model = screenModel
+            } else if (currentIndex == 2) {
+                model = menuModel
+            } else if (currentIndex == 3) {
+                model = miscModel
+            }
+
+            if (model !== null) {
+                model.setFilters(showArchivedSwitch.checked, showTranslatedSwitch.checked)
+                updateItemCountText()
+            }
+        }
 
         TabButton {
             text: qsTr("Items")
@@ -76,7 +127,12 @@ Window {
         }
 
         TabButton {
-            text: qsTr("Paramètres")
+            text: qsTr("Aide")
+            icon.source: "assets/help.svg"
+        }
+
+        TabButton {
+            //text: qsTr("Paramètres")
             icon.source: "assets/settings.svg"
         }
     }
@@ -87,14 +143,14 @@ Window {
         anchors.right: parent.right
         anchors.top: navBar.bottom
 
-        Material.background: Material.background
+        Material.background: darkMode? Material.background : '#FFFFFF' // TODO Fix binding loop
 
         //height: 88
         Row {
             anchors.fill: parent
             anchors.topMargin: 8
             anchors.bottomMargin: 8
-            visible: paneStack.currentIndex !== 4 && paneStack.currentIndex !== 5 // Hide toolbar when on Quit or Settings panes
+            visible: paneStack.currentIndex < 4 // Hide toolbar when on Quit or Settings panes
             spacing: 8
 
             Switch {
@@ -104,14 +160,22 @@ Window {
                 checked: window.showTranslated
                 onClicked: {
                     window.showTranslated = checked
-                    itemModel.setFilters(showArchivedSwitch.checked, checked)
-                    itemModel.refreshList()
+                    if (paneStack.currentIndex == 0) {
+                        itemModel.setFilters(showArchivedSwitch.checked, checked)
+                    } else if (paneStack.currentIndex == 1) {
+                        screenModel.setFilters(showArchivedSwitch.checked, checked)
+                    } else if (paneStack.currentIndex == 2) {
+                        menuModel.setFilters(showArchivedSwitch.checked, checked)
+                    } else if (paneStack.currentIndex == 3) {
+                        miscModel.setFilters(showArchivedSwitch.checked, checked)
                     }
+                    updateItemCountText()
+                }
 
-                    ToolTip.delay: 1000
-                    ToolTip.timeout: 5000
-                    ToolTip.text: qsTr("Déasactiver cette option permet de ne voir que les items qui n'ont pas encore été traduits.")
-                    ToolTip.visible: hovered
+                ToolTip.delay: 1000
+                ToolTip.timeout: 5000
+                ToolTip.text: qsTr("Déasactiver cette option permet de ne voir que les items qui n'ont pas encore été traduits.")
+                ToolTip.visible: hovered
             }
 
             Switch {
@@ -122,13 +186,23 @@ Window {
                 onClicked: {
                     window.showArchived = checked
                     itemModel.setFilters(checked, showTranslatedSwitch.checked)
-                    itemModel.refreshList()
-                    }
+                    updateItemCountText()
+                }
 
                 ToolTip.delay: 1000
                 ToolTip.timeout: 5000
                 ToolTip.text: qsTr("Désactiver cette option permet de ne pas voir les items archivés.")
                 ToolTip.visible: hovered
+            }
+
+            Text {
+                id: itemCountText
+                anchors.verticalCenter: parent.verticalCenter
+                font.pixelSize: 16
+                font.bold: true
+                text: qsTr("Aucun item à afficher")
+                color: Material.primary
+                verticalAlignment: Text.AlignVCenter
             }
         }
     }
@@ -163,10 +237,7 @@ Window {
                 }
 
                 delegate: Rectangle {
-                    //width: parent.width
-                    anchors.left: parent.left
-                    anchors.right: parent.right
-                    anchors.rightMargin: 18
+                    width: parent != null? parent.width - 18 : 0
                     height: 80
                     radius: 20
                     color: index%2 == 0? Material.primary : Material.color(Material.Green, Material.Shade800)
@@ -193,7 +264,7 @@ Window {
                             placeholderText: qsTr("Traduction")
                             text: model.Translation
                             maximumLength: 22
-
+                            validator: RegularExpressionValidator { regularExpression: /^[\x00-\x7F]*$/ } // Allow only ASCII
                             onEditingFinished: itemModel.setTranslation(index, text)
                         }
                         Switch {
@@ -208,6 +279,7 @@ Window {
                                 itemModel.setArchived(index, checked)
                                 if (checked) {
                                     itemModel.refreshList()
+                                    updateItemCountText()
                                 }
                             }
 
@@ -241,10 +313,7 @@ Window {
                 }
 
                 delegate: Rectangle {
-                    //width: parent.width
-                    anchors.left: parent.left
-                    anchors.right: parent.right
-                    anchors.rightMargin: 18
+                    width: parent != null? parent.width - 18 : 0
                     height: 80
                     radius: 20
                     color: index%2 == 0? Material.color(Material.Purple) : Material.color(Material.Purple, Material.Shade800)
@@ -271,6 +340,7 @@ Window {
                             placeholderText: qsTr("Traduction")
                             text: model.Translation
                             maximumLength: 22
+                            validator: RegularExpressionValidator { regularExpression: /^[\x00-\x7F]*$/ } // Allow only ASCII
 
                             onEditingFinished: screenModel.setTranslation(index, text)
                         }
@@ -286,6 +356,7 @@ Window {
                                 screenModel.setArchived(index, checked)
                                 if (checked) {
                                     screenModel.refreshList()
+                                    updateItemCountText()
                                 }
                             }
 
@@ -318,10 +389,7 @@ Window {
                 }
 
                 delegate: Rectangle {
-                    //width: parent.width
-                    anchors.left: parent.left
-                    anchors.right: parent.right
-                    anchors.rightMargin: 18
+                    width: parent != null? parent.width - 18 : 0
                     height: 80
                     radius: 20
                     color: index%2 == 0? Material.color(Material.Pink) : Material.color(Material.Pink, Material.Shade800)
@@ -348,6 +416,7 @@ Window {
                             placeholderText: qsTr("Traduction")
                             text: model.Translation
                             maximumLength: 22
+                            validator: RegularExpressionValidator { regularExpression: /^[\x00-\x7F]*$/ } // Allow only ASCII
 
                             onEditingFinished: menuModel.setTranslation(index, text)
                         }
@@ -363,6 +432,7 @@ Window {
                                 menuModel.setArchived(index, checked)
                                 if (checked) {
                                     menuModel.refreshList()
+                                    updateItemCountText()
                                 }
                             }
 
@@ -395,10 +465,7 @@ Window {
                 }
 
                 delegate: Rectangle {
-                    //width: parent.width
-                    anchors.left: parent.left
-                    anchors.right: parent.right
-                    anchors.rightMargin: 18
+                    width: parent != null? parent.width - 18 : 0
                     height: 80
                     radius: 20
                     color: index%2 == 0? Material.color(Material.Orange) : Material.color(Material.Orange, Material.Shade800)
@@ -425,6 +492,7 @@ Window {
                             placeholderText: qsTr("Traduction")
                             text: model.Translation
                             maximumLength: 22
+                            validator: RegularExpressionValidator { regularExpression: /^[\x00-\x7F]*$/ } // Allow only ASCII
 
                             onEditingFinished: miscModel.setTranslation(index, text)
                         }
@@ -440,6 +508,7 @@ Window {
                                 miscModel.setArchived(index, checked)
                                 if (checked) {
                                     miscModel.refreshList()
+                                    updateItemCountText()
                                 }
                             }
 
@@ -454,7 +523,6 @@ Window {
         } // End Misc pane
         Pane { // Quit pane
             Column {
-                //anchors.fill: parent
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
                 spacing: 32
@@ -465,6 +533,7 @@ Window {
                     height: 96
                     icon.source: "assets/publish.svg"
                     icon.color: Material.color(Material.Blue)
+                    enabled: window.allowGenerateAndQuit
                     onClicked: Qt.quit()
                 }
 
@@ -478,8 +547,65 @@ Window {
                 }
             }
         } // End Quit pane
+        Pane { // Help pane
+            ScrollView {
+                anchors.fill: parent
+                ScrollBar.vertical.policy: ScrollBar.AlwaysOn
+                ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
+
+                Column {
+                    anchors.fill: parent
+                    //anchors.rightMargin: 18
+                    spacing: 16
+
+                    Repeater {
+                        model: ListModel {
+                            ListElement {
+                                header: qsTr("Fonctionnement de POSiTrad")
+                                help: qsTr("POSiTrad facilite la traduction de menus pour POSiTouch construits à partir de QuickMenu. Sous les onglets 'Items', 'Écrans', 'Menus' et 'Autres', vous trouverez des listes d'objets existants dans votre menu dont vous pouvez définir une traduction. En utilisant l'option 'Générer la traduction et quitter', POSiTrad va générer une copie de votre menu original, mais substituera les traductions que vous avez définies.\n\nNotez que POSiTrad n'est approprié que pour les cas où les menus sont rigourusement identiques entre les succursales, autre que la langue.")
+                            }
+
+                            ListElement {
+                                header: qsTr("Comment sauvegarder mes changements?")
+                                help: qsTr("Tout est sauvegardé automatiquement au fur et à mesure que vous faites des modifications.")
+                            }
+
+                            ListElement {
+                                header: qsTr("Comment pousser mes changements dans une succursale?")
+                                help: qsTr("Pour pousser les modifications dans une succursale, il sera nécessaire d'éxécuter un script d'exportation, que CLS Info aura configuré pour vous. Il sera également nécessaire d'effectuer un 'Immediate System Change' dans la succursale si on veut que les modifications soient appliquées immédiatement.\n\nSi vous avez omis de traduire un item, le texte original sera utilisé.")
+                            }
+
+                            ListElement {
+                                header: qsTr("À quoi sert l'option 'Archiver' sur les items?")
+                                help:qsTr("L'option 'Archiver' permet de cacher un item de la liste. Il sera toujours possible de le retrouver en activant l'option 'Afficher items archivés'. Ceci est utile pour cacher des items qui ne sont plus utilisés.\n\nNotez que cette fonction n'a aucun impact sur le menu lui-même, mais seulement sur la liste d'items affichée dans POSiTrad.")
+                            }
+                        }
+                        delegate: Column {
+                            spacing: 8
+                            width: parent.width
+
+                            Text {
+                                text: model.header
+                                color: Material.primary
+                                font.pixelSize: 24
+                                font.bold: true
+                            }
+
+                            Text {
+                                text: model.help
+                                width: parent.width
+                                wrapMode: Text.WordWrap
+                                color: Material.foreground
+                            }
+                        }
+                    }
+                }
+            }
+
+        } // End Help pane
         Pane { // Settings pane
             id: settingsPane
+
             ScrollView {
                 anchors.fill: parent
                 ScrollBar.vertical.policy: ScrollBar.AlwaysOn
@@ -493,14 +619,16 @@ Window {
                         text: qsTr("Mode sombre")
                         checked: window.darkMode
 
-                        onClicked: window.darkMode = checked
+                        onClicked: {
+                            window.darkMode = checked
+                            toolBar.Material.background = darkMode ? Material.background : '#FFFFFF'
+                        }
                     }
 
                     GroupBox {
                         title: qsTr("Paramètres POSiTouch")
 
-                        //anchors.left: parent.left
-                        //anchors.right: parent.right
+                        width: window.width - 64
 
                         Column {
                             anchors.left: parent.left
@@ -525,8 +653,8 @@ Window {
 
                     GroupBox {
                         title: qsTr("Paramètres d'exportation")
-                        anchors.left: parent.left
-                        anchors.right: parent.right
+
+                        width: window.width - 64
 
                         Column {
                             anchors.left: parent.left
@@ -549,17 +677,78 @@ Window {
 
                             TextField {
                                 width: 400
-                                placeholderText: qsTr("Script après l'exportation")
+                                placeholderText: qsTr("Script éxécuté après l'exportation")
                                 text: window.postOutputScript
                                 onEditingFinished: window.postOutputScript = text
+                            }
+                            Switch {
+                                text: qsTr("Activer l'option 'Générer la traduction et quitter'")
+                                checked: window.allowGenerateAndQuit
+
+                                onClicked: window.allowGenerateAndQuit = checked
+                            }
+                        }
+                    }
+
+                    GroupBox {
+                        title: qsTr("Copies de sauvegarde")
+                        width: window.width - 64
+                        Column {
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            spacing: 16
+
+                            Row {
+                                spacing: 16
+                                SpinBox {
+                                    id: backupCountSpinBox
+                                    from: 1
+                                    to: 99
+                                    value: window.backupCount
+                                    stepSize: 1
+                                    width: 200
+
+                                    enabled: backupPathTextField.text.length > 0
+                                    
+                                    onValueChanged: window.backupCount = value
+                                }
+                                Label {
+                                    anchors.verticalCenter: parent.verticalCenter
+                                    text: qsTr("Nombre de copies de sauvegarde à conserver")
+                                }
+                            }
+
+
+
+                            TextField {
+                                id: backupPathTextField
+                                width: 400
+                                wrapMode: Text.WordWrap
+                                color: Material.foreground
+                                placeholderText: qsTr("Chemin vers les copies de sauvegarde (ex: backup\\)")
+                                text: window.backupPath
+                                onEditingFinished: {
+                                    window.backupPath = text
+                                    backupCountSpinBox.enabled = text.length > 0
+                                    if (text.length == 0) {
+                                        toastManager.createMessage(qsTr("Copies de sauvegarde désactivées. Cette configuration n'est pas recommandable."), {
+                                        type: "warning",
+                                        position: Qt.BottomEdge,
+                                        theme: window.darkMode? "Dark" : "Light",
+                                        closeOnClick: true,
+                                        autoClose: 2000,
+                                        hideProgressBar: true,
+                                        clickAction: null
+                                        })
+                                    }
+                                }
                             }
                         }
                     }
 
                     GroupBox {
                         title: qsTr("À propos")
-                        anchors.left: parent.left
-                        anchors.right: parent.right
+                        width: window.width - 64
                         Column {
                             anchors.left: parent.left
                             anchors.right: parent.right
@@ -567,10 +756,15 @@ Window {
 
 
                             Text {
-                                text: qsTr("POSiTrad")
-                                color: Material.accent
+                                text: Qt.application.displayName
+                                color: Material.primary
                                 font.pixelSize: 24
                                 font.bold: true
+                            }
+
+                            Text {
+                                text: qsTr("Version %0").arg(Qt.application.version)
+                                color: Material.primary
                             }
 
                             Text {
