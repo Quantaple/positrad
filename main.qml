@@ -4,6 +4,7 @@ import QtQuick.Window
 import QtQuick.Controls
 import QtQuick.Controls.Material
 import QtQuick.Layouts
+import QtQuick.Dialogs
 
 Window {
     id: window
@@ -122,13 +123,13 @@ Window {
         }
 
         TabButton {
-            text: qsTr("Quitter")
-            icon.source: "assets/close.svg"
+            text: qsTr("Aide")
+            icon.source: "assets/help.svg"
         }
 
         TabButton {
-            text: qsTr("Aide")
-            icon.source: "assets/help.svg"
+            text: qsTr("Quitter")
+            icon.source: "assets/close.svg"
         }
 
         TabButton {
@@ -521,32 +522,6 @@ Window {
                 }
             }
         } // End Misc pane
-        Pane { // Quit pane
-            Column {
-                anchors.horizontalCenter: parent.horizontalCenter
-                anchors.verticalCenter: parent.verticalCenter
-                spacing: 32
-
-                Button {
-                    text: qsTr("Générer la traduction et quitter")
-                    width: 384
-                    height: 96
-                    icon.source: "assets/publish.svg"
-                    icon.color: Material.color(Material.Blue)
-                    enabled: window.allowGenerateAndQuit
-                    onClicked: Qt.quit()
-                }
-
-                Button {
-                    text: qsTr("Quitter")
-                    width: 384
-                    height: 96
-                    icon.source: "assets/close.svg"
-                    icon.color: Material.color(Material.Red)
-                    onClicked: Qt.quit()
-                }
-            }
-        } // End Quit pane
         Pane { // Help pane
             ScrollView {
                 anchors.fill: parent
@@ -584,18 +559,34 @@ Window {
                             spacing: 8
                             width: parent.width
 
-                            Text {
+                            Button {
+                                id: header
                                 text: model.header
-                                color: Material.primary
+                                icon.source: checked? "assets/keyboard_arrow_down.svg" : "assets/chevron_right.svg"
                                 font.pixelSize: 24
                                 font.bold: true
+                                flat: true
+                                checkable: true
+                                checked: false
                             }
 
                             Text {
+
                                 text: model.help
                                 width: parent.width
                                 wrapMode: Text.WordWrap
                                 color: Material.foreground
+
+                                // Adapted from https://forum.qt.io/topic/81646/expandible-collapsible-pane-with-smooth-animation-in-qml/5
+                                // These lines below are responsible for the expand/collapse animation
+                                visible: height > 0
+                                height: header.checked? implicitHeight : 0
+                                Behavior on height {
+                                    NumberAnimation {
+                                        easing.type: Easing.InOutQuad
+                                    }
+                                }
+                                clip: true
                             }
                         }
                     }
@@ -603,6 +594,32 @@ Window {
             }
 
         } // End Help pane
+        Pane { // Quit pane
+            Column {
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+                spacing: 32
+
+                Button {
+                    text: qsTr("Générer la traduction et quitter")
+                    width: 384
+                    height: 96
+                    icon.source: "assets/publish.svg"
+                    icon.color: Material.color(Material.Blue)
+                    enabled: window.allowGenerateAndQuit
+                    onClicked: Qt.quit()
+                }
+
+                Button {
+                    text: qsTr("Quitter")
+                    width: 384
+                    height: 96
+                    icon.source: "assets/close.svg"
+                    icon.color: Material.color(Material.Red)
+                    onClicked: Qt.quit()
+                }
+            }
+        } // End Quit pane
         Pane { // Settings pane
             id: settingsPane
 
@@ -635,6 +652,16 @@ Window {
                             anchors.right: parent.right
                             spacing: 16
 
+                            FileDialog {
+                                id: sourceFileDialog
+                                title: qsTr("Sélectionner le fichier source")
+                                nameFilters: ["Access Database (*.mdb)", "All files (*)"]
+                                onAccepted: {
+                                    sourceFileTextField.text = fileUrl.toString()
+                                    window.sourceFile = fileUrl.toString()
+                                }
+                            }
+
                             TextField {
                                 width: 400
                                 placeholderText: qsTr("Connexion à ODBC")
@@ -642,12 +669,26 @@ Window {
                                 onEditingFinished: window.odbcConnectionString = text
                             }
 
-                            TextField {
-                                width: 400
-                                placeholderText: qsTr("Fichier source (ex: C:\\SC\\qm.mdb)")
-                                text: window.sourceFile
-                                onEditingFinished: window.sourceFile = text
+                            Row {
+                                spacing: 8
+
+                                TextField {
+                                    id: sourceFileTextField
+                                    width: 400
+                                    placeholderText: qsTr("Fichier source (ex: C:\\SC\\qm.mdb)")
+                                    text: window.sourceFile
+                                    onEditingFinished: window.sourceFile = text
+                                }
+                                Button {
+                                    icon.source: "assets/folder.svg"
+                                    flat: true
+                                    onClicked: {
+                                        sourceFileDialog.open()
+                                    }
+                                }
                             }
+
+
                         }
                     }
 
@@ -655,6 +696,26 @@ Window {
                         title: qsTr("Paramètres d'exportation")
 
                         width: window.width - 64
+
+                        FileDialog {
+                            id: preOutputScriptDialog
+                            title: qsTr("Sélectionner le script à exécuter avant l'exportation")
+                            nameFilters: ["Batch files (*.bat)", "All files (*)"]
+                            onAccepted: {
+                                preOutputScriptTextField.text = fileUrl.toString()
+                                window.preOutputScript = fileUrl.toString()
+                            }
+                        }
+
+                        FileDialog {
+                            id: postOutputScriptDialog
+                            title: qsTr("Sélectionner le script à exécuter après l'exportation")
+                            nameFilters: ["Batch files (*.bat)", "All files (*)"]
+                            onAccepted: {
+                                postOutputScriptTextField.text = fileUrl.toString()
+                                window.postOutputScript = fileUrl.toString()
+                            }
+                        }
 
                         Column {
                             anchors.left: parent.left
@@ -668,19 +729,43 @@ Window {
                                 onEditingFinished: window.outputPath = text
                             }
 
-                            TextField {
-                                width: 400
-                                placeholderText: qsTr("Script éxécuté avant l'exportation")
-                                text: window.preOutputScript
-                                onEditingFinished: window.preOutputScript = text
+                            Row {
+                                spacing : 8
+                                TextField {
+                                    id: preOutputScriptTextField
+                                    width: 400
+                                    placeholderText: qsTr("Script éxécuté avant l'exportation")
+                                    text: window.preOutputScript
+                                    onEditingFinished: window.preOutputScript = text
+                                }
+                                Button {
+                                    icon.source: "assets/folder.svg"
+                                    flat: true
+                                    onClicked: {
+                                        preOutputScriptDialog.open()
+                                    }
+                                }
                             }
 
-                            TextField {
-                                width: 400
-                                placeholderText: qsTr("Script éxécuté après l'exportation")
-                                text: window.postOutputScript
-                                onEditingFinished: window.postOutputScript = text
+                            Row {
+                                spacing: 8
+                                TextField {
+                                    width: 400
+                                    placeholderText: qsTr("Script éxécuté après l'exportation")
+                                    text: window.postOutputScript
+                                    onEditingFinished: window.postOutputScript = text
+                                }
+                                Button {
+                                    icon.source: "assets/folder.svg"
+                                    flat: true
+                                    onClicked: {
+                                        postOutputScriptDialog.open()
+                                    }
+                                }
                             }
+
+
+
                             Switch {
                                 text: qsTr("Activer l'option 'Générer la traduction et quitter'")
                                 checked: window.allowGenerateAndQuit

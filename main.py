@@ -17,7 +17,7 @@ from ItemModel import TranslatableModel
 
 ORG_NAME = "CLSInfo"
 APP_NAME = "POSiTrad"
-VERSION = "alpha 0.1.0"
+VERSION = "alpha 0.1.1"
 
 DB_PATH = "trad.db"
 """ Default location of the POSiTrad database """
@@ -39,8 +39,13 @@ parser = argparse.ArgumentParser(
     epilog="Auteur: Martin Lapierre Pitre (C) CLS Info 2025"
 )
 
-parser.add_argument("--translate",
-                    help="Génère une traduction.",
+parser.add_argument("-o", "--output-translation",
+                    help="Génère une traduction de menu et l'enregistre dans le fichier spécifié.",
+                    type=str
+                    )
+
+parser.add_argument("--reset-settings",
+                    help="Réinitialise la configuration de l'application.",
                     action="store_true"
                     )
 
@@ -66,6 +71,27 @@ if __name__ == "__main__":
             cursor.executescript(script.read()) # For testing purposes
 
     translationRepo = TranslationRepo(DB_PATH)
+
+    # Look at console arguments, if any were provided
+    args = parser.parse_args()
+    if args.output_translation:
+        output_path = args.output_translation
+        logger.info("Output translation path set to %s", output_path)
+        if not output_path.endswith('.mdb'):
+            logger.error("Output file must be a .mdb file.")
+            sys.exit(1)
+        # TODO
+        # Here you would implement the logic to generate the translation
+        # and save it to the specified output path.
+        # For now, we will just log the action.
+        logger.info("Generating translation and saving to %s", output_path)
+        sys.exit(0)
+    elif args.reset_settings:
+        logger.info("Resetting application settings...")
+        settings = QSettings(ORG_NAME, APP_NAME)
+        settings.clear()
+        logger.info("Settings reset complete.")
+        sys.exit(0)
 
 
     # Launch our GUI
