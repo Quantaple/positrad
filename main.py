@@ -8,6 +8,7 @@ from PySide6.QtGui import QGuiApplication, QIcon
 from PySide6.QtQml import QQmlApplicationEngine
 
 from logger import logger
+from backup import BackupManager
 from translation import Translatable, TranslationRepo, TranslationTables
 from ItemModel import TranslatableModel
 
@@ -28,6 +29,8 @@ DEFAULT_OUTPUT_PATH = "qm.mdb"
 DEFAULT_POSITOUCH_PATH = "C:\\SC\\"
 """ Default location of the qm.mdb file """
 DEFAULT_ODBC_CONNECTION_STRING = "DSN=qmdb"
+BACKUP_FILENAME = "positrad-back{:02d}.zip"
+""" Default name of the backup file, with a placeholder for the backup number """
 
 # ============================================================================
 # Console arguments ==========================================================
@@ -93,6 +96,11 @@ if __name__ == "__main__":
         logger.info("Settings reset complete.")
         sys.exit(0)
 
+    # Load some settings
+    settings = QSettings(ORG_NAME, APP_NAME)
+    backupCount = settings.value("backupCount", 5, type=int)
+    backupPath = settings.value("backupPath", "backups", type=str)
+
 
     # Launch our GUI
     logger.info("Launching GUI...")
@@ -119,6 +127,13 @@ if __name__ == "__main__":
     miscModel = TranslatableModel(translationRepo)
     miscModel.setItemList(translationRepo.getList(TranslationTables.Misc))
     engine.rootContext().setContextProperty("miscModel", miscModel)
+
+    backupManager = BackupManager(
+        fileName=BACKUP_FILENAME,
+        folder=backupPath, # type: ignore
+        backupCount=backupCount, # type: ignore
+        filesToBackup=[DB_PATH]
+    )
     
     engine.load(qml_file)
     
@@ -126,6 +141,9 @@ if __name__ == "__main__":
         sys.exit(-1)
 
     code = app.exec()
+
+    if code == 0:
+        backupManager.createBackup()
 
     logger.info("POSiTrad finished with code %d", code)
 
