@@ -1,161 +1,1783 @@
-2025-06-12 19:08:01,402 - INFO - Starting POSiTrad...
-2025-06-12 19:08:01,402 - INFO - Launching GUI...
-2025-06-12 19:08:05,833 - INFO - POSiTrad finished with code 0
-2025-06-12 19:08:19,621 - INFO - Starting POSiTrad...
-2025-06-12 19:08:19,621 - INFO - Launching GUI...
-2025-06-12 19:08:48,411 - INFO - POSiTrad finished with code 0
-2025-06-12 19:09:14,428 - INFO - Starting POSiTrad...
-2025-06-12 19:09:14,429 - INFO - Launching GUI...
-2025-06-12 19:12:38,280 - INFO - POSiTrad finished with code 0
-2025-06-12 19:12:53,573 - INFO - Starting POSiTrad...
-2025-06-12 19:12:53,573 - INFO - Launching GUI...
-2025-06-12 19:12:59,733 - INFO - Starting POSiTrad...
-2025-06-12 19:12:59,733 - INFO - Launching GUI...
-2025-06-12 19:13:05,130 - INFO - POSiTrad finished with code 0
-2025-06-12 19:13:17,409 - INFO - Starting POSiTrad...
-2025-06-12 19:13:17,409 - INFO - Launching GUI...
-2025-06-12 19:13:21,949 - INFO - POSiTrad finished with code 0
-2025-06-12 19:13:48,255 - INFO - Starting POSiTrad...
-2025-06-12 19:13:48,255 - INFO - Launching GUI...
-2025-06-12 19:15:58,386 - INFO - POSiTrad finished with code 0
-2025-06-12 19:16:13,993 - INFO - Starting POSiTrad...
-2025-06-12 19:16:13,993 - INFO - Launching GUI...
-2025-06-12 19:16:16,711 - INFO - POSiTrad finished with code 0
-2025-06-12 19:16:37,030 - INFO - Starting POSiTrad...
-2025-06-12 19:16:37,030 - INFO - Launching GUI...
-2025-06-12 19:16:44,323 - INFO - POSiTrad finished with code 0
-2025-06-12 19:17:41,786 - INFO - Starting POSiTrad...
-2025-06-12 19:17:41,787 - INFO - Launching GUI...
-2025-06-12 19:18:46,585 - INFO - POSiTrad finished with code 0
-2025-06-12 19:19:01,367 - INFO - Starting POSiTrad...
-2025-06-12 19:19:01,367 - INFO - Launching GUI...
-2025-06-12 19:19:05,297 - INFO - POSiTrad finished with code 0
-2025-06-12 19:19:20,254 - INFO - Starting POSiTrad...
-2025-06-12 19:19:20,254 - INFO - Launching GUI...
-2025-06-12 19:19:22,831 - INFO - POSiTrad finished with code 0
-2025-06-12 19:19:36,312 - INFO - Starting POSiTrad...
-2025-06-12 19:19:36,312 - INFO - Launching GUI...
-2025-06-12 19:22:16,264 - INFO - POSiTrad finished with code 0
-2025-06-12 19:25:49,889 - INFO - Starting POSiTrad...
-2025-06-12 19:25:49,889 - INFO - Launching GUI...
-2025-06-12 19:26:05,624 - INFO - Starting POSiTrad...
-2025-06-12 19:26:05,624 - INFO - Launching GUI...
-2025-06-12 19:26:30,938 - INFO - POSiTrad finished with code 0
-2025-06-12 19:27:36,133 - INFO - Starting POSiTrad...
-2025-06-12 19:27:36,133 - INFO - Launching GUI...
-2025-06-12 19:27:43,573 - INFO - POSiTrad finished with code 0
-2025-06-12 19:29:08,824 - INFO - Starting POSiTrad...
-2025-06-12 19:29:08,824 - INFO - Launching GUI...
-2025-06-12 19:29:20,017 - INFO - POSiTrad finished with code 0
-2025-06-12 19:36:41,416 - INFO - Starting POSiTrad...
-2025-06-12 19:36:41,416 - INFO - Launching GUI...
-2025-06-12 19:36:53,464 - INFO - POSiTrad finished with code 0
-2025-06-12 19:37:01,497 - INFO - Starting POSiTrad...
-2025-06-12 19:37:01,497 - INFO - Launching GUI...
-2025-06-12 19:37:09,707 - INFO - POSiTrad finished with code 0
-2025-06-12 19:37:28,285 - INFO - Starting POSiTrad...
-2025-06-12 19:37:28,285 - INFO - Launching GUI...
-2025-06-12 19:38:23,359 - INFO - POSiTrad finished with code 0
-2025-06-12 19:38:37,084 - INFO - Starting POSiTrad...
-2025-06-12 19:38:37,084 - INFO - Launching GUI...
-2025-06-12 19:39:20,426 - INFO - POSiTrad finished with code 0
-2025-06-12 19:40:44,944 - INFO - Starting POSiTrad...
-2025-06-12 19:40:44,944 - INFO - Launching GUI...
-2025-06-12 19:41:00,771 - INFO - POSiTrad finished with code 0
-2025-06-12 19:41:29,177 - INFO - Starting POSiTrad...
-2025-06-12 19:41:29,177 - INFO - Launching GUI...
-2025-06-12 19:42:33,273 - INFO - POSiTrad finished with code 0
-2025-06-12 19:46:53,949 - INFO - Starting POSiTrad...
-2025-06-12 19:46:53,949 - INFO - Launching GUI...
-2025-06-12 19:47:07,005 - INFO - POSiTrad finished with code 0
-2025-06-12 19:47:15,411 - INFO - Starting POSiTrad...
-2025-06-12 19:47:15,412 - INFO - Launching GUI...
-2025-06-12 19:47:22,534 - INFO - POSiTrad finished with code 0
-2025-06-12 19:47:59,545 - INFO - Starting POSiTrad...
-2025-06-12 19:47:59,545 - INFO - Launching GUI...
-2025-06-12 19:48:14,937 - INFO - POSiTrad finished with code 0
-2025-06-12 19:48:34,393 - INFO - Starting POSiTrad...
-2025-06-12 19:48:34,393 - INFO - Launching GUI...
-2025-06-12 19:51:29,162 - INFO - POSiTrad finished with code 0
-2025-06-12 22:41:07,676 - INFO - Starting POSiTrad...
-2025-06-12 22:41:07,676 - INFO - Launching GUI...
-2025-06-12 22:42:24,837 - INFO - POSiTrad finished with code 0
-2025-06-12 23:06:16,362 - INFO - Starting POSiTrad...
-2025-06-12 23:06:16,362 - INFO - Launching GUI...
-2025-06-12 23:06:50,190 - INFO - Starting POSiTrad...
-2025-06-12 23:06:50,190 - INFO - Launching GUI...
-2025-06-12 23:07:03,989 - INFO - POSiTrad finished with code 0
-2025-06-12 23:10:07,381 - INFO - Starting POSiTrad...
-2025-06-12 23:10:07,382 - INFO - Launching GUI...
-2025-06-12 23:10:09,392 - INFO - Creating backup in folder: backups/ with file name: backup_{:02d}.zip and backup count: 5
-2025-06-12 23:10:09,393 - INFO - Backup folder backups/ does not exist, creating it.
-2025-06-12 23:10:09,393 - INFO - Backup created successfully at backups/backup_01.zip
-2025-06-12 23:10:09,393 - INFO - POSiTrad finished with code 0
-2025-06-12 23:12:20,036 - INFO - Starting POSiTrad...
-2025-06-12 23:12:20,036 - INFO - Launching GUI...
-2025-06-12 23:12:22,089 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:12:22,089 - INFO - Adding file trad.db to backup zip.
-2025-06-12 23:12:22,090 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:12:22,090 - INFO - POSiTrad finished with code 0
-2025-06-12 23:13:24,108 - INFO - Starting POSiTrad...
-2025-06-12 23:13:24,108 - INFO - Launching GUI...
-2025-06-12 23:13:25,937 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:13:25,937 - INFO - Adding file trad.db to backup zip.
-2025-06-12 23:13:25,938 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:13:25,938 - INFO - POSiTrad finished with code 0
-2025-06-12 23:14:52,636 - INFO - Starting POSiTrad...
-2025-06-12 23:14:52,636 - INFO - Launching GUI...
-2025-06-12 23:14:54,264 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:14:54,264 - WARNING - File backups/trad.db does not exist, skipping backup.
-2025-06-12 23:14:54,264 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:14:54,265 - INFO - POSiTrad finished with code 0
-2025-06-12 23:16:13,696 - INFO - Starting POSiTrad...
-2025-06-12 23:16:13,697 - INFO - Launching GUI...
-2025-06-12 23:16:15,493 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:16:15,494 - WARNING - File backups/trad.db does not exist, skipping backup.
-2025-06-12 23:16:15,494 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:16:15,494 - INFO - POSiTrad finished with code 0
-2025-06-12 23:16:27,470 - INFO - Starting POSiTrad...
-2025-06-12 23:16:27,470 - INFO - Launching GUI...
-2025-06-12 23:16:29,024 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:16:29,024 - WARNING - File backups/trad.db does not exist, skipping backup.
-2025-06-12 23:16:29,024 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:16:29,024 - INFO - POSiTrad finished with code 0
-2025-06-12 23:16:30,038 - INFO - Starting POSiTrad...
-2025-06-12 23:16:30,039 - INFO - Launching GUI...
-2025-06-12 23:16:32,313 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:16:32,313 - WARNING - File backups/trad.db does not exist, skipping backup.
-2025-06-12 23:16:32,313 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:16:32,313 - INFO - POSiTrad finished with code 0
-2025-06-12 23:16:37,182 - INFO - Starting POSiTrad...
-2025-06-12 23:16:37,182 - INFO - Launching GUI...
-2025-06-12 23:16:38,797 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:16:38,798 - WARNING - File backups/trad.db does not exist, skipping backup.
-2025-06-12 23:16:38,798 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:16:38,798 - INFO - POSiTrad finished with code 0
-2025-06-12 23:16:39,822 - INFO - Starting POSiTrad...
-2025-06-12 23:16:39,823 - INFO - Launching GUI...
-2025-06-12 23:16:40,902 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:16:40,902 - WARNING - File backups/trad.db does not exist, skipping backup.
-2025-06-12 23:16:40,903 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:16:40,903 - INFO - POSiTrad finished with code 0
-2025-06-12 23:16:41,942 - INFO - Starting POSiTrad...
-2025-06-12 23:16:41,942 - INFO - Launching GUI...
-2025-06-12 23:16:43,488 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:16:43,488 - WARNING - File backups/trad.db does not exist, skipping backup.
-2025-06-12 23:16:43,488 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:16:43,488 - INFO - POSiTrad finished with code 0
-2025-06-12 23:16:50,951 - INFO - Starting POSiTrad...
-2025-06-12 23:16:50,952 - INFO - Launching GUI...
-2025-06-12 23:16:52,311 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:16:52,312 - INFO - Removing oldest backup: backups/positrad-back05.zip
-2025-06-12 23:16:52,312 - WARNING - File backups/trad.db does not exist, skipping backup.
-2025-06-12 23:16:52,312 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:16:52,312 - INFO - POSiTrad finished with code 0
-2025-06-12 23:17:44,342 - INFO - Starting POSiTrad...
-2025-06-12 23:17:44,343 - INFO - Launching GUI...
-2025-06-12 23:17:45,968 - INFO - Creating backup in folder: backups/ with file name: positrad-back{:02d}.zip and backup count: 5
-2025-06-12 23:17:45,968 - INFO - Removing oldest backup: backups/positrad-back05.zip
-2025-06-12 23:17:45,969 - INFO - Adding file trad.db to backup zip.
-2025-06-12 23:17:45,969 - INFO - Backup created successfully at backups/positrad-back01.zip
-2025-06-12 23:17:45,969 - INFO - POSiTrad finished with code 0
+2025-06-13 19:06:20,140 - INFO - Starting POSiTrad...
+2025-06-13 19:06:20,140 - INFO - Launching GUI...
+2025-06-13 19:06:22,188 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 19:06:22,188 - INFO - Adding file trad.db to backup zip.
+2025-06-13 19:06:22,189 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 19:06:22,189 - INFO - POSiTrad finished with code 0
+2025-06-13 19:07:24,289 - INFO - Starting POSiTrad...
+2025-06-13 19:07:24,289 - INFO - Launching GUI...
+2025-06-13 19:07:25,980 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 19:07:25,981 - INFO - Adding file trad.db to backup zip.
+2025-06-13 19:07:25,981 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 19:07:25,982 - INFO - POSiTrad finished with code 0
+2025-06-13 19:07:40,496 - INFO - Starting POSiTrad...
+2025-06-13 19:07:40,497 - INFO - Launching GUI...
+2025-06-13 19:07:42,864 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 19:07:42,865 - INFO - Adding file trad.db to backup zip.
+2025-06-13 19:07:42,865 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 19:07:42,865 - INFO - POSiTrad finished with code 0
+2025-06-13 19:07:44,793 - INFO - Starting POSiTrad...
+2025-06-13 19:07:44,793 - INFO - Launching GUI...
+2025-06-13 19:07:58,316 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 19:07:58,316 - INFO - Adding file trad.db to backup zip.
+2025-06-13 19:07:58,316 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 19:07:58,316 - INFO - POSiTrad finished with code 0
+2025-06-13 19:59:39,338 - INFO - Starting POSiTrad...
+2025-06-13 19:59:39,338 - INFO - Launching GUI...
+2025-06-13 19:59:41,157 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 19:59:41,158 - INFO - Adding file trad.db to backup zip.
+2025-06-13 19:59:41,158 - INFO - Backup created successfully at backups/positrad-back02.zip
+2025-06-13 19:59:41,158 - INFO - POSiTrad finished with code 0
+2025-06-13 20:03:33,366 - INFO - Starting POSiTrad...
+2025-06-13 20:03:33,366 - INFO - Launching GUI...
+2025-06-13 20:03:35,293 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:03:35,293 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:03:35,293 - INFO - Backup created successfully at backups/positrad-back03.zip
+2025-06-13 20:03:35,293 - INFO - POSiTrad finished with code 0
+2025-06-13 20:03:39,848 - INFO - Starting POSiTrad...
+2025-06-13 20:03:39,848 - INFO - Launching GUI...
+2025-06-13 20:03:41,472 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:03:41,473 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:03:41,473 - INFO - Backup created successfully at backups/positrad-back04.zip
+2025-06-13 20:03:41,473 - INFO - POSiTrad finished with code 0
+2025-06-13 20:04:29,855 - INFO - Starting POSiTrad...
+2025-06-13 20:04:29,855 - INFO - Launching GUI...
+2025-06-13 20:04:32,224 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:04:32,224 - INFO - Removing oldest backup: backups/positrad-back05.zip
+2025-06-13 20:05:03,097 - INFO - Starting POSiTrad...
+2025-06-13 20:05:03,097 - INFO - Launching GUI...
+2025-06-13 20:05:05,204 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:05:05,204 - INFO - Removing oldest backup: backups/positrad-back05.zip
+2025-06-13 20:06:42,764 - INFO - Starting POSiTrad...
+2025-06-13 20:06:42,764 - INFO - Launching GUI...
+2025-06-13 20:06:44,409 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:07:23,801 - INFO - Starting POSiTrad...
+2025-06-13 20:07:23,801 - INFO - Launching GUI...
+2025-06-13 20:07:25,545 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:07:25,546 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:07:25,546 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 20:07:25,546 - INFO - POSiTrad finished with code 0
+2025-06-13 20:07:29,692 - INFO - Starting POSiTrad...
+2025-06-13 20:07:29,692 - INFO - Launching GUI...
+2025-06-13 20:07:31,990 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:07:31,991 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:07:31,991 - INFO - Backup created successfully at backups/positrad-back02.zip
+2025-06-13 20:07:31,991 - INFO - POSiTrad finished with code 0
+2025-06-13 20:07:50,262 - INFO - Starting POSiTrad...
+2025-06-13 20:07:50,262 - INFO - Launching GUI...
+2025-06-13 20:07:51,835 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:07:51,835 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:07:51,835 - DEBUG - Latest backup checksum: 12f6fb85579c1a1b975894e0cc03c932, Current checksum: fe38e35b8c45c0322e1557518ae9597b
+2025-06-13 20:07:51,836 - INFO - Backup created successfully at backups/positrad-back03.zip
+2025-06-13 20:07:51,836 - INFO - POSiTrad finished with code 0
+2025-06-13 20:10:09,909 - INFO - Starting POSiTrad...
+2025-06-13 20:10:09,910 - INFO - Launching GUI...
+2025-06-13 20:10:11,665 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:10:11,665 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:10:43,754 - INFO - Starting POSiTrad...
+2025-06-13 20:10:43,754 - INFO - Launching GUI...
+2025-06-13 20:10:45,387 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:10:45,387 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:11:09,424 - INFO - Starting POSiTrad...
+2025-06-13 20:11:09,424 - INFO - Launching GUI...
+2025-06-13 20:11:11,760 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:11:11,760 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:11:11,760 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 1
+2025-06-13 20:11:11,760 - INFO - Backup created successfully at backups/positrad-back04.zip
+2025-06-13 20:11:11,760 - INFO - POSiTrad finished with code 0
+2025-06-13 20:11:17,293 - INFO - Starting POSiTrad...
+2025-06-13 20:11:17,293 - INFO - Launching GUI...
+2025-06-13 20:11:18,767 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:11:18,767 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:11:18,768 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 1
+2025-06-13 20:11:18,768 - INFO - Backup created successfully at backups/positrad-back05.zip
+2025-06-13 20:11:18,768 - INFO - POSiTrad finished with code 0
+2025-06-13 20:11:41,119 - INFO - Starting POSiTrad...
+2025-06-13 20:11:41,120 - INFO - Launching GUI...
+2025-06-13 20:11:42,778 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:11:42,779 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:11:42,779 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 1
+2025-06-13 20:11:42,779 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 20:11:42,779 - INFO - POSiTrad finished with code 0
+2025-06-13 20:11:48,219 - INFO - Starting POSiTrad...
+2025-06-13 20:11:48,219 - INFO - Launching GUI...
+2025-06-13 20:11:50,219 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:11:50,220 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:11:50,220 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:11:50,220 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:11:50,220 - INFO - POSiTrad finished with code 0
+2025-06-13 20:13:30,636 - INFO - Starting POSiTrad...
+2025-06-13 20:13:30,637 - INFO - Launching GUI...
+2025-06-13 20:13:33,155 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:13:33,155 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:13:33,156 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:13:33,156 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:13:33,156 - INFO - POSiTrad finished with code 0
+2025-06-13 20:13:49,773 - INFO - Starting POSiTrad...
+2025-06-13 20:13:49,773 - INFO - Launching GUI...
+2025-06-13 20:14:19,522 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:14:19,522 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:14:19,523 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:14:19,523 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:14:19,523 - INFO - POSiTrad finished with code 0
+2025-06-13 20:14:22,778 - INFO - Starting POSiTrad...
+2025-06-13 20:14:22,778 - INFO - Launching GUI...
+2025-06-13 20:14:30,638 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:14:30,638 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:14:30,638 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:14:30,639 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:14:30,639 - INFO - POSiTrad finished with code 0
+2025-06-13 20:14:33,664 - INFO - Starting POSiTrad...
+2025-06-13 20:14:33,664 - INFO - Launching GUI...
+2025-06-13 20:15:15,933 - INFO - Creating backup in folder: backups/ with file name: positrad-back07.zip
+2025-06-13 20:15:15,933 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:15:15,934 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:15:15,934 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:15:15,934 - INFO - POSiTrad finished with code 0
+2025-06-13 20:15:16,061 - INFO - Starting POSiTrad...
+2025-06-13 20:15:16,061 - INFO - Launching GUI...
+2025-06-13 20:15:29,208 - INFO - Creating backup in folder: backups/ with file name: positrad-back07.zip
+2025-06-13 20:15:29,208 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:15:29,209 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:15:29,209 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:15:29,209 - INFO - POSiTrad finished with code 0
+2025-06-13 20:16:18,316 - INFO - Starting POSiTrad...
+2025-06-13 20:16:18,316 - INFO - Launching GUI...
+2025-06-13 20:16:29,081 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:16:29,081 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:16:29,082 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:16:29,082 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:16:29,082 - INFO - POSiTrad finished with code 0
+2025-06-13 20:16:33,951 - INFO - Starting POSiTrad...
+2025-06-13 20:16:33,952 - INFO - Launching GUI...
+2025-06-13 20:16:35,607 - ERROR - Backup folder is not set, skipping backup creation.
+2025-06-13 20:16:35,607 - INFO - POSiTrad finished with code 0
+2025-06-13 20:16:44,189 - INFO - Starting POSiTrad...
+2025-06-13 20:16:44,190 - INFO - Launching GUI...
+2025-06-13 20:16:45,799 - ERROR - Backup folder is not set, skipping backup creation.
+2025-06-13 20:16:45,799 - INFO - POSiTrad finished with code 0
+2025-06-13 20:16:53,201 - INFO - Starting POSiTrad...
+2025-06-13 20:16:53,201 - INFO - Launching GUI...
+2025-06-13 20:16:55,348 - ERROR - Backup folder is not set, skipping backup creation.
+2025-06-13 20:16:55,348 - INFO - POSiTrad finished with code 0
+2025-06-13 20:17:28,170 - INFO - Starting POSiTrad...
+2025-06-13 20:17:28,170 - INFO - Launching GUI...
+2025-06-13 20:17:46,998 - ERROR - Backup folder is not set, skipping backup creation.
+2025-06-13 20:17:46,998 - INFO - POSiTrad finished with code 0
+2025-06-13 20:17:50,309 - INFO - Starting POSiTrad...
+2025-06-13 20:17:50,309 - INFO - Launching GUI...
+2025-06-13 20:18:08,355 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:18:08,355 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:18:08,356 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:18:08,356 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:18:08,356 - INFO - POSiTrad finished with code 0
+2025-06-13 20:18:36,178 - INFO - Starting POSiTrad...
+2025-06-13 20:18:36,179 - INFO - Launching GUI...
+2025-06-13 20:18:43,315 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:18:43,315 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:18:43,315 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:18:43,315 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:18:43,315 - INFO - POSiTrad finished with code 0
+2025-06-13 20:22:02,299 - LINE - ________________________________________________________________________________
+2025-06-13 20:22:02,300 - LINE - ________________________________________________________________________________
+2025-06-13 20:22:02,300 - INFO - Starting POSiTrad...
+2025-06-13 20:22:02,300 - INFO - Launching GUI...
+2025-06-13 20:22:03,684 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:22:03,684 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:22:03,685 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:22:03,685 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:22:03,685 - INFO - POSiTrad finished with code 0
+2025-06-13 20:22:15,203 - LINE - ________________________________________________________________________________
+2025-06-13 20:22:15,203 - LINE - ________________________________________________________________________________
+2025-06-13 20:22:15,203 - INFO - Starting POSiTrad...
+2025-06-13 20:22:15,203 - LINE - ________________________________________________________________________________
+2025-06-13 20:22:15,203 - INFO - Launching GUI...
+2025-06-13 20:22:29,227 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:22:29,227 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:22:29,228 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:22:29,228 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:22:29,228 - INFO - POSiTrad finished with code 0
+2025-06-13 20:33:42,476 - LINE - ________________________________________________________________________________
+2025-06-13 20:33:42,476 - LINE - ________________________________________________________________________________
+2025-06-13 20:33:42,476 - INFO - Starting POSiTrad...
+2025-06-13 20:33:42,477 - LINE - ________________________________________________________________________________
+2025-06-13 20:33:42,477 - INFO - Launching GUI...
+2025-06-13 20:34:35,421 - LINE - ________________________________________________________________________________
+2025-06-13 20:34:35,421 - LINE - ________________________________________________________________________________
+2025-06-13 20:34:35,421 - INFO - Starting POSiTrad...
+2025-06-13 20:34:35,421 - LINE - ________________________________________________________________________________
+2025-06-13 20:34:35,421 - INFO - Launching GUI...
+2025-06-13 20:34:37,013 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:34:37,013 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:34:37,013 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:34:37,013 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:34:37,014 - INFO - POSiTrad finished with code 0
+2025-06-13 20:34:48,847 - LINE - ________________________________________________________________________________
+2025-06-13 20:34:48,847 - LINE - ________________________________________________________________________________
+2025-06-13 20:34:48,847 - INFO - Starting POSiTrad...
+2025-06-13 20:34:48,847 - LINE - ________________________________________________________________________________
+2025-06-13 20:34:48,847 - INFO - Launching GUI...
+2025-06-13 20:36:11,109 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:36:11,110 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:36:11,110 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:36:11,110 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:36:11,110 - INFO - POSiTrad finished with code 0
+2025-06-13 20:36:40,352 - LINE - ________________________________________________________________________________
+2025-06-13 20:36:40,352 - LINE - ________________________________________________________________________________
+2025-06-13 20:36:40,352 - INFO - Starting POSiTrad...
+2025-06-13 20:36:40,352 - LINE - ________________________________________________________________________________
+2025-06-13 20:36:40,353 - INFO - Launching GUI...
+2025-06-13 20:37:05,126 - LINE - ________________________________________________________________________________
+2025-06-13 20:37:05,126 - LINE - ________________________________________________________________________________
+2025-06-13 20:37:05,126 - INFO - Starting POSiTrad...
+2025-06-13 20:37:05,126 - LINE - ________________________________________________________________________________
+2025-06-13 20:37:05,126 - INFO - Launching GUI...
+2025-06-13 20:37:07,149 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:37:07,149 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:37:07,149 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:37:07,149 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:37:07,149 - INFO - POSiTrad finished with code 0
+2025-06-13 20:37:44,737 - LINE - ________________________________________________________________________________
+2025-06-13 20:37:44,737 - LINE - ________________________________________________________________________________
+2025-06-13 20:37:44,737 - INFO - Starting POSiTrad...
+2025-06-13 20:37:44,737 - LINE - ________________________________________________________________________________
+2025-06-13 20:37:44,737 - INFO - Launching GUI...
+2025-06-13 20:39:53,013 - LINE - ________________________________________________________________________________
+2025-06-13 20:39:53,013 - LINE - ________________________________________________________________________________
+2025-06-13 20:39:53,013 - INFO - Starting POSiTrad...
+2025-06-13 20:39:53,013 - LINE - ________________________________________________________________________________
+2025-06-13 20:39:53,013 - INFO - Launching GUI...
+2025-06-13 20:40:06,407 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:40:06,407 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:40:06,408 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:40:06,408 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:40:06,408 - INFO - POSiTrad finished with code 0
+2025-06-13 20:41:25,029 - LINE - ________________________________________________________________________________
+2025-06-13 20:41:25,029 - LINE - ________________________________________________________________________________
+2025-06-13 20:41:25,029 - INFO - Starting POSiTrad...
+2025-06-13 20:41:25,030 - LINE - ________________________________________________________________________________
+2025-06-13 20:41:25,030 - INFO - Launching GUI...
+2025-06-13 20:41:25,117 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,117 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,117 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,117 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,117 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,118 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,118 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,118 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,118 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,118 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:25,118 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,105 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,105 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:29,106 - DEBUG - Found 1 existing backups.
+2025-06-13 20:41:36,084 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:41:36,085 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:41:36,085 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:41:36,085 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:41:36,085 - INFO - POSiTrad finished with code 0
+2025-06-13 20:42:31,125 - LINE - ________________________________________________________________________________
+2025-06-13 20:42:31,125 - LINE - ________________________________________________________________________________
+2025-06-13 20:42:31,126 - INFO - Starting POSiTrad...
+2025-06-13 20:42:31,126 - LINE - ________________________________________________________________________________
+2025-06-13 20:42:31,126 - INFO - Launching GUI...
+2025-06-13 20:42:31,218 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,218 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,219 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,219 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,219 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,219 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,219 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,219 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,219 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:31,219 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,858 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,858 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:34,859 - DEBUG - Found 1 existing backups.
+2025-06-13 20:42:39,887 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:42:39,887 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:42:39,888 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:42:39,888 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:42:39,888 - INFO - POSiTrad finished with code 0
+2025-06-13 20:43:01,463 - LINE - ________________________________________________________________________________
+2025-06-13 20:43:01,463 - LINE - ________________________________________________________________________________
+2025-06-13 20:43:01,463 - INFO - Starting POSiTrad...
+2025-06-13 20:43:01,463 - LINE - ________________________________________________________________________________
+2025-06-13 20:43:01,463 - INFO - Launching GUI...
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,552 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:01,553 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,926 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,926 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,926 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,926 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:05,927 - DEBUG - Found 1 existing backups.
+2025-06-13 20:43:09,507 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:43:09,507 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:43:09,508 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:43:09,508 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:43:09,508 - INFO - POSiTrad finished with code 0
+2025-06-13 20:44:21,679 - LINE - ________________________________________________________________________________
+2025-06-13 20:44:21,679 - LINE - ________________________________________________________________________________
+2025-06-13 20:44:21,679 - INFO - Starting POSiTrad...
+2025-06-13 20:44:21,679 - LINE - ________________________________________________________________________________
+2025-06-13 20:44:21,679 - INFO - Launching GUI...
+2025-06-13 20:44:21,754 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,754 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,754 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,755 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,755 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,755 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,755 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,755 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,755 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:21,755 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,705 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,705 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,706 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,706 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:25,707 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:31,704 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:44:31,704 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:44:31,705 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:44:31,705 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:44:31,705 - INFO - POSiTrad finished with code 0
+2025-06-13 20:44:55,384 - LINE - ________________________________________________________________________________
+2025-06-13 20:44:55,384 - LINE - ________________________________________________________________________________
+2025-06-13 20:44:55,384 - INFO - Starting POSiTrad...
+2025-06-13 20:44:55,384 - LINE - ________________________________________________________________________________
+2025-06-13 20:44:55,385 - INFO - Launching GUI...
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:44:55,459 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:02,632 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:45:02,632 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:45:02,633 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:45:02,633 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:45:02,633 - INFO - POSiTrad finished with code 0
+2025-06-13 20:45:29,364 - LINE - ________________________________________________________________________________
+2025-06-13 20:45:29,364 - LINE - ________________________________________________________________________________
+2025-06-13 20:45:29,364 - INFO - Starting POSiTrad...
+2025-06-13 20:45:29,364 - LINE - ________________________________________________________________________________
+2025-06-13 20:45:29,364 - INFO - Launching GUI...
+2025-06-13 20:45:29,455 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,455 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,455 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,455 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,455 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,456 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,456 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,456 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,456 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:29,456 - DEBUG - Found 1 existing backups.
+2025-06-13 20:45:36,810 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:45:36,810 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:45:36,811 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:45:36,811 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:45:36,811 - INFO - POSiTrad finished with code 0
+2025-06-13 20:46:01,370 - LINE - ________________________________________________________________________________
+2025-06-13 20:46:01,370 - LINE - ________________________________________________________________________________
+2025-06-13 20:46:01,370 - INFO - Starting POSiTrad...
+2025-06-13 20:46:01,370 - LINE - ________________________________________________________________________________
+2025-06-13 20:46:01,371 - INFO - Launching GUI...
+2025-06-13 20:46:01,467 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,467 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,467 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,467 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,467 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,467 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,468 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,468 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,468 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:01,468 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,033 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,034 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,034 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,034 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:05,035 - DEBUG - Found 1 existing backups.
+2025-06-13 20:46:33,729 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:46:33,730 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:46:33,730 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:46:33,730 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:46:33,730 - INFO - POSiTrad finished with code 0
+2025-06-13 20:47:45,911 - LINE - ________________________________________________________________________________
+2025-06-13 20:47:45,911 - LINE - ________________________________________________________________________________
+2025-06-13 20:47:45,911 - INFO - Starting POSiTrad...
+2025-06-13 20:47:45,911 - LINE - ________________________________________________________________________________
+2025-06-13 20:47:45,912 - INFO - Launching GUI...
+2025-06-13 20:47:46,000 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,000 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,000 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,000 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,000 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,000 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,000 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,000 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,001 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:46,001 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,031 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,031 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,031 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,031 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:47:53,032 - DEBUG - Found 1 existing backups.
+2025-06-13 20:48:05,989 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:48:05,989 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:48:05,989 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:48:05,989 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:48:05,989 - INFO - POSiTrad finished with code 0
+2025-06-13 20:50:26,634 - LINE - ________________________________________________________________________________
+2025-06-13 20:50:26,634 - LINE - ________________________________________________________________________________
+2025-06-13 20:50:26,634 - INFO - Starting POSiTrad...
+2025-06-13 20:50:26,634 - LINE - ________________________________________________________________________________
+2025-06-13 20:50:26,634 - INFO - Launching GUI...
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:26,720 - DEBUG - Found 1 existing backups.
+2025-06-13 20:50:32,738 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:50:32,739 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:50:32,739 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:50:32,739 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:50:32,739 - INFO - POSiTrad finished with code 0
+2025-06-13 20:51:27,813 - LINE - ________________________________________________________________________________
+2025-06-13 20:51:27,813 - LINE - ________________________________________________________________________________
+2025-06-13 20:51:27,813 - INFO - Starting POSiTrad...
+2025-06-13 20:51:27,813 - LINE - ________________________________________________________________________________
+2025-06-13 20:51:27,814 - INFO - Launching GUI...
+2025-06-13 20:51:27,906 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:27,907 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:32,619 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:51:32,619 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:51:32,620 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:51:32,620 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:51:32,620 - INFO - POSiTrad finished with code 0
+2025-06-13 20:51:47,744 - LINE - ________________________________________________________________________________
+2025-06-13 20:51:47,744 - LINE - ________________________________________________________________________________
+2025-06-13 20:51:47,744 - INFO - Starting POSiTrad...
+2025-06-13 20:51:47,744 - LINE - ________________________________________________________________________________
+2025-06-13 20:51:47,745 - INFO - Launching GUI...
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:47,831 - DEBUG - Found 1 existing backups.
+2025-06-13 20:51:56,523 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:51:56,524 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:51:56,524 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:51:56,524 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:51:56,524 - INFO - POSiTrad finished with code 0
+2025-06-13 20:52:40,859 - LINE - ________________________________________________________________________________
+2025-06-13 20:52:40,859 - LINE - ________________________________________________________________________________
+2025-06-13 20:52:40,859 - INFO - Starting POSiTrad...
+2025-06-13 20:52:40,859 - LINE - ________________________________________________________________________________
+2025-06-13 20:52:40,859 - INFO - Launching GUI...
+2025-06-13 20:52:40,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:40,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,376 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,376 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,377 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,377 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:46,378 - DEBUG - Found 1 existing backups.
+2025-06-13 20:52:56,062 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:52:56,063 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:52:56,063 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:52:56,063 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:52:56,063 - INFO - POSiTrad finished with code 0
+2025-06-13 20:53:12,644 - LINE - ________________________________________________________________________________
+2025-06-13 20:53:12,644 - LINE - ________________________________________________________________________________
+2025-06-13 20:53:12,644 - INFO - Starting POSiTrad...
+2025-06-13 20:53:12,644 - LINE - ________________________________________________________________________________
+2025-06-13 20:53:12,645 - INFO - Launching GUI...
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:12,736 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,950 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:16,951 - DEBUG - Found 1 existing backups.
+2025-06-13 20:53:51,150 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:53:51,150 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:53:51,150 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:53:51,150 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:53:51,150 - INFO - POSiTrad finished with code 0
+2025-06-13 20:54:00,958 - LINE - ________________________________________________________________________________
+2025-06-13 20:54:00,958 - LINE - ________________________________________________________________________________
+2025-06-13 20:54:00,958 - INFO - Starting POSiTrad...
+2025-06-13 20:54:00,958 - LINE - ________________________________________________________________________________
+2025-06-13 20:54:00,958 - INFO - Launching GUI...
+2025-06-13 20:54:01,047 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,047 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,047 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,047 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,047 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,047 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,047 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,048 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,048 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:01,048 - DEBUG - Found 1 existing backups.
+2025-06-13 20:54:15,101 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:54:15,102 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:54:15,102 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:54:15,102 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:54:15,102 - INFO - POSiTrad finished with code 0
+2025-06-13 20:55:04,974 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:04,974 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:04,974 - INFO - Starting POSiTrad...
+2025-06-13 20:55:04,974 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:04,974 - INFO - Launching GUI...
+2025-06-13 20:55:05,073 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:05,074 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:11,972 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:55:11,972 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:55:11,973 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:55:11,973 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:55:11,973 - INFO - POSiTrad finished with code 0
+2025-06-13 20:55:28,995 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:28,995 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:28,996 - INFO - Starting POSiTrad...
+2025-06-13 20:55:28,996 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:28,996 - INFO - Launching GUI...
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,080 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:29,081 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,147 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,147 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,147 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,147 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:33,148 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:41,244 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:55:41,245 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:55:41,245 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:55:41,245 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:55:41,245 - INFO - POSiTrad finished with code 0
+2025-06-13 20:55:42,628 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:42,628 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:42,628 - INFO - Starting POSiTrad...
+2025-06-13 20:55:42,628 - LINE - ________________________________________________________________________________
+2025-06-13 20:55:42,629 - INFO - Launching GUI...
+2025-06-13 20:55:42,712 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,712 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,712 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,712 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,712 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,713 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,713 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,713 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,713 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:42,713 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,355 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,355 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,355 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,355 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,356 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,356 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,356 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,356 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,356 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,356 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,356 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,357 - DEBUG - Found 1 existing backups.
+2025-06-13 20:55:54,357 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:01,185 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:56:01,186 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:56:01,186 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:56:01,186 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:56:01,186 - INFO - POSiTrad finished with code 0
+2025-06-13 20:56:34,100 - LINE - ________________________________________________________________________________
+2025-06-13 20:56:34,100 - LINE - ________________________________________________________________________________
+2025-06-13 20:56:34,101 - INFO - Starting POSiTrad...
+2025-06-13 20:56:34,101 - LINE - ________________________________________________________________________________
+2025-06-13 20:56:34,101 - INFO - Launching GUI...
+2025-06-13 20:56:34,194 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,194 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,195 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,195 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,195 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,195 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,195 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,195 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,195 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:34,195 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,747 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,747 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,747 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,747 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:56:46,748 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,292 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:58:07,292 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:58:07,293 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:58:07,293 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:58:07,293 - INFO - POSiTrad finished with code 0
+2025-06-13 20:58:07,428 - LINE - ________________________________________________________________________________
+2025-06-13 20:58:07,428 - LINE - ________________________________________________________________________________
+2025-06-13 20:58:07,428 - INFO - Starting POSiTrad...
+2025-06-13 20:58:07,428 - LINE - ________________________________________________________________________________
+2025-06-13 20:58:07,428 - INFO - Launching GUI...
+2025-06-13 20:58:07,513 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,513 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,513 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,514 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,514 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,514 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,514 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,514 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,514 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:07,514 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,001 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,001 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,001 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,001 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:19,002 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:22,490 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:58:22,490 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:58:22,490 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:58:22,490 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:58:22,490 - INFO - POSiTrad finished with code 0
+2025-06-13 20:58:34,606 - LINE - ________________________________________________________________________________
+2025-06-13 20:58:34,606 - LINE - ________________________________________________________________________________
+2025-06-13 20:58:34,606 - INFO - Starting POSiTrad...
+2025-06-13 20:58:34,606 - LINE - ________________________________________________________________________________
+2025-06-13 20:58:34,606 - INFO - Launching GUI...
+2025-06-13 20:58:34,679 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,679 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,679 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,680 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,680 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,680 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,680 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,680 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,680 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:34,680 - DEBUG - Found 1 existing backups.
+2025-06-13 20:58:49,120 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:58:49,120 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:58:49,121 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:58:49,121 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:58:49,121 - INFO - POSiTrad finished with code 0
+2025-06-13 20:59:12,111 - LINE - ________________________________________________________________________________
+2025-06-13 20:59:12,111 - LINE - ________________________________________________________________________________
+2025-06-13 20:59:12,111 - INFO - Starting POSiTrad...
+2025-06-13 20:59:12,111 - LINE - ________________________________________________________________________________
+2025-06-13 20:59:12,111 - INFO - Launching GUI...
+2025-06-13 20:59:12,205 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,205 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,205 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,205 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,205 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,205 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,206 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,206 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,206 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:12,206 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,342 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,342 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,342 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,342 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:18,343 - DEBUG - Found 1 existing backups.
+2025-06-13 20:59:21,254 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 20:59:21,254 - INFO - Adding file trad.db to backup zip.
+2025-06-13 20:59:21,255 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 20:59:21,255 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 20:59:21,255 - INFO - POSiTrad finished with code 0
+2025-06-13 21:02:13,322 - LINE - ________________________________________________________________________________
+2025-06-13 21:02:13,322 - LINE - ________________________________________________________________________________
+2025-06-13 21:02:13,322 - INFO - Starting POSiTrad...
+2025-06-13 21:02:13,322 - LINE - ________________________________________________________________________________
+2025-06-13 21:02:13,322 - INFO - Launching GUI...
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:13,413 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,433 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,433 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,433 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,433 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,434 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,434 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,434 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,434 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,434 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,434 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,434 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:21,434 - DEBUG - Found 1 existing backups.
+2025-06-13 21:02:29,676 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:02:29,676 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:02:29,676 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 21:02:29,676 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:02:29,676 - INFO - POSiTrad finished with code 0
+2025-06-13 21:04:00,509 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:00,509 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:00,509 - INFO - Starting POSiTrad...
+2025-06-13 21:04:00,509 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:00,509 - INFO - Launching GUI...
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:00,601 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,230 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,230 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,230 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,230 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,231 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,231 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,231 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,231 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,231 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,231 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,231 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:04,231 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:05,485 - INFO - NOT YET IMPLEMENTED
+2025-06-13 21:04:08,983 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:04:08,984 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:04:08,984 - DEBUG - Latest backup checksum: 01563209e0b7b2f5ff9c7642bf408b4a, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 21:04:08,984 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:04:08,984 - INFO - POSiTrad finished with code 0
+2025-06-13 21:04:20,174 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:20,174 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:20,174 - INFO - Starting POSiTrad...
+2025-06-13 21:04:20,174 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:20,174 - INFO - Launching GUI...
+2025-06-13 21:04:20,249 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:20,249 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:20,249 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:20,249 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:20,249 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:20,249 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:20,250 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:20,250 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:20,250 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:30,864 - DEBUG - Setting translation for index 4 to '5oz T. TUNA'
+2025-06-13 21:04:30,865 - INFO - Item 10000005 translation set to '5oz T. TUNA'
+2025-06-13 21:04:32,208 - DEBUG - No change in translation for index 4, keeping '5oz T. TUNA'
+2025-06-13 21:04:32,817 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:04:32,817 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:04:32,817 - DEBUG - Latest backup checksum: e648d7a73b49ad5e695aafd3bde60266, Current checksum: 01563209e0b7b2f5ff9c7642bf408b4a
+2025-06-13 21:04:32,817 - INFO - Backup created successfully at backups/positrad-back02.zip
+2025-06-13 21:04:32,817 - INFO - POSiTrad finished with code 0
+2025-06-13 21:04:47,159 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:47,159 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:47,159 - INFO - Starting POSiTrad...
+2025-06-13 21:04:47,159 - LINE - ________________________________________________________________________________
+2025-06-13 21:04:47,160 - INFO - Launching GUI...
+2025-06-13 21:04:47,235 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:47,235 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:47,235 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:47,235 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:47,236 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:47,236 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:47,236 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:47,236 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:47,236 - DEBUG - Found 1 existing backups.
+2025-06-13 21:04:54,284 - DEBUG - Setting translation for index 5 to '8oz T. TUNA'
+2025-06-13 21:04:54,286 - INFO - Item 10000006 translation set to '8oz T. TUNA'
+2025-06-13 21:04:55,832 - DEBUG - No change in translation for index 5, keeping '8oz T. TUNA'
+2025-06-13 21:04:56,578 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:04:56,578 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:04:56,579 - INFO - Backup created successfully at backups/positrad-back03.zip
+2025-06-13 21:04:56,579 - INFO - POSiTrad finished with code 0
+2025-06-13 21:10:20,172 - LINE - ________________________________________________________________________________
+2025-06-13 21:10:20,172 - LINE - ________________________________________________________________________________
+2025-06-13 21:10:20,173 - INFO - Starting POSiTrad...
+2025-06-13 21:10:20,173 - LINE - ________________________________________________________________________________
+2025-06-13 21:10:20,173 - INFO - Launching GUI...
+2025-06-13 21:10:20,247 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:20,247 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:20,248 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:20,248 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:20,248 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:20,248 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:20,248 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:20,248 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:20,248 - DEBUG - Found 1 existing backups.
+2025-06-13 21:10:26,109 - DEBUG - Setting translation for index 7 to '8oz T. SHRIMP'
+2025-06-13 21:10:26,111 - INFO - Item 10000008 translation set to '8oz T. SHRIMP'
+2025-06-13 21:10:27,356 - DEBUG - No change in translation for index 7, keeping '8oz T. SHRIMP'
+2025-06-13 21:10:28,203 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:10:28,203 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:10:28,203 - INFO - Moving backups/positrad-back03.zip to backups/positrad-back04.zip
+2025-06-13 21:10:28,203 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 21:10:28,203 - INFO - POSiTrad finished with code 0
+2025-06-13 21:11:01,800 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:01,800 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:01,801 - INFO - Starting POSiTrad...
+2025-06-13 21:11:01,801 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:01,801 - INFO - Launching GUI...
+2025-06-13 21:11:01,878 - DEBUG - Found 0 existing backups.
+2025-06-13 21:11:03,806 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:11:03,806 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:11:03,807 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 21:11:03,807 - INFO - POSiTrad finished with code 0
+2025-06-13 21:11:06,189 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:06,189 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:06,189 - INFO - Starting POSiTrad...
+2025-06-13 21:11:06,189 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:06,189 - INFO - Launching GUI...
+2025-06-13 21:11:06,265 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:06,265 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:06,266 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:06,266 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:06,266 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:06,266 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:06,266 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:06,266 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:06,266 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:07,544 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:11:07,544 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:11:07,545 - DEBUG - Latest backup checksum: 370a5908c321c9cc525380d8c33b2611, Current checksum: 370a5908c321c9cc525380d8c33b2611
+2025-06-13 21:11:07,545 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:11:07,545 - INFO - POSiTrad finished with code 0
+2025-06-13 21:11:24,634 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:24,634 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:24,635 - INFO - Starting POSiTrad...
+2025-06-13 21:11:24,635 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:24,635 - INFO - Launching GUI...
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:24,713 - DEBUG - Found 1 existing backups.
+2025-06-13 21:11:31,085 - DEBUG - Setting translation for index 7 to ''
+2025-06-13 21:11:31,087 - INFO - Item 10000008 translation set to ''
+2025-06-13 21:11:31,702 - DEBUG - No change in translation for index 7, keeping ''
+2025-06-13 21:11:32,486 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:11:32,486 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:11:32,487 - DEBUG - Latest backup checksum: 24db4f12274a495b755147635b0c8ad4, Current checksum: 370a5908c321c9cc525380d8c33b2611
+2025-06-13 21:11:32,487 - INFO - Moving backups/positrad-back01.zip to backups/positrad-back02.zip
+2025-06-13 21:11:32,487 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 21:11:32,487 - INFO - POSiTrad finished with code 0
+2025-06-13 21:11:43,659 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:43,659 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:43,659 - INFO - Starting POSiTrad...
+2025-06-13 21:11:43,659 - LINE - ________________________________________________________________________________
+2025-06-13 21:11:43,660 - INFO - Launching GUI...
+2025-06-13 21:11:43,734 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:43,734 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:43,734 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:43,734 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:43,734 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:43,735 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:43,735 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:43,735 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:43,735 - DEBUG - Found 2 existing backups.
+2025-06-13 21:11:46,970 - DEBUG - Setting translation for index 6 to ''
+2025-06-13 21:11:46,972 - INFO - Item 10000007 translation set to ''
+2025-06-13 21:11:48,516 - DEBUG - No change in translation for index 6, keeping ''
+2025-06-13 21:11:50,635 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:11:50,635 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:11:50,636 - DEBUG - Latest backup checksum: 26d44d599c3a423820fbd90c293f2658, Current checksum: 24db4f12274a495b755147635b0c8ad4
+2025-06-13 21:11:50,636 - INFO - Moving backups/positrad-back02.zip to backups/positrad-back03.zip
+2025-06-13 21:11:50,636 - INFO - Moving backups/positrad-back01.zip to backups/positrad-back02.zip
+2025-06-13 21:11:50,636 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 21:11:50,636 - INFO - POSiTrad finished with code 0
+2025-06-13 21:12:00,104 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:00,104 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:00,104 - INFO - Starting POSiTrad...
+2025-06-13 21:12:00,104 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:00,104 - INFO - Launching GUI...
+2025-06-13 21:12:00,182 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:00,182 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:00,182 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:00,182 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:00,182 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:00,182 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:00,182 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:00,183 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:00,183 - DEBUG - Found 3 existing backups.
+2025-06-13 21:12:06,158 - DEBUG - Setting archived status for index 2 to True
+2025-06-13 21:12:06,160 - INFO - Item 10000003 archived status set to True
+2025-06-13 21:12:12,821 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:12:12,821 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:12:12,822 - DEBUG - Latest backup checksum: 5c1461374fc8c0df9b92841be7eae8c5, Current checksum: 26d44d599c3a423820fbd90c293f2658
+2025-06-13 21:12:12,822 - INFO - Moving backups/positrad-back03.zip to backups/positrad-back04.zip
+2025-06-13 21:12:12,822 - INFO - Moving backups/positrad-back02.zip to backups/positrad-back03.zip
+2025-06-13 21:12:12,822 - INFO - Moving backups/positrad-back01.zip to backups/positrad-back02.zip
+2025-06-13 21:12:12,822 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 21:12:12,822 - INFO - POSiTrad finished with code 0
+2025-06-13 21:12:14,765 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:14,765 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:14,765 - INFO - Starting POSiTrad...
+2025-06-13 21:12:14,765 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:14,765 - INFO - Launching GUI...
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:14,841 - DEBUG - Found 4 existing backups.
+2025-06-13 21:12:24,874 - DEBUG - Setting archived status for index 1 to False
+2025-06-13 21:12:24,876 - INFO - Item 10000002 archived status set to False
+2025-06-13 21:12:26,115 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:12:26,116 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:12:26,116 - DEBUG - Latest backup checksum: 8950c88ef136ab9bb485e5ea741a4be6, Current checksum: 5c1461374fc8c0df9b92841be7eae8c5
+2025-06-13 21:12:26,116 - INFO - Moving backups/positrad-back04.zip to backups/positrad-back05.zip
+2025-06-13 21:12:26,116 - INFO - Moving backups/positrad-back03.zip to backups/positrad-back04.zip
+2025-06-13 21:12:26,116 - INFO - Moving backups/positrad-back02.zip to backups/positrad-back03.zip
+2025-06-13 21:12:26,116 - INFO - Moving backups/positrad-back01.zip to backups/positrad-back02.zip
+2025-06-13 21:12:26,116 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 21:12:26,116 - INFO - POSiTrad finished with code 0
+2025-06-13 21:12:31,299 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:31,299 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:31,299 - INFO - Starting POSiTrad...
+2025-06-13 21:12:31,299 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:31,299 - INFO - Launching GUI...
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:31,376 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:33,682 - DEBUG - Setting archived status for index 2 to False
+2025-06-13 21:12:33,684 - INFO - Item 10000003 archived status set to False
+2025-06-13 21:12:34,123 - DEBUG - Setting archived status for index 3 to False
+2025-06-13 21:12:34,125 - INFO - Item 10000004 archived status set to False
+2025-06-13 21:12:35,431 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:12:35,432 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:12:35,432 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 8950c88ef136ab9bb485e5ea741a4be6
+2025-06-13 21:12:35,432 - INFO - Removing oldest backup: backups/positrad-back05.zip
+2025-06-13 21:12:35,432 - INFO - Moving backups/positrad-back04.zip to backups/positrad-back05.zip
+2025-06-13 21:12:35,432 - INFO - Moving backups/positrad-back03.zip to backups/positrad-back04.zip
+2025-06-13 21:12:35,433 - INFO - Moving backups/positrad-back02.zip to backups/positrad-back03.zip
+2025-06-13 21:12:35,433 - INFO - Moving backups/positrad-back01.zip to backups/positrad-back02.zip
+2025-06-13 21:12:35,433 - INFO - Backup created successfully at backups/positrad-back01.zip
+2025-06-13 21:12:35,433 - INFO - POSiTrad finished with code 0
+2025-06-13 21:12:46,194 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:46,194 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:46,194 - INFO - Starting POSiTrad...
+2025-06-13 21:12:46,194 - LINE - ________________________________________________________________________________
+2025-06-13 21:12:46,194 - INFO - Launching GUI...
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:46,270 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,528 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,528 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,528 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,528 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,529 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,529 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,529 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,529 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,529 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,529 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,530 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,531 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,531 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,531 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,531 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,531 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,531 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,531 - DEBUG - Found 5 existing backups.
+2025-06-13 21:12:49,531 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:01,517 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:01,517 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:01,517 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:01,517 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:01,517 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:01,517 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:01,517 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:01,517 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:02,617 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:02,617 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:02,617 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:02,617 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:02,617 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:02,617 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:02,617 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:02,617 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:28,265 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:13:28,265 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:13:28,265 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:13:28,265 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:13:28,266 - INFO - POSiTrad finished with code 0
+2025-06-13 21:13:49,324 - LINE - ________________________________________________________________________________
+2025-06-13 21:13:49,324 - LINE - ________________________________________________________________________________
+2025-06-13 21:13:49,324 - INFO - Starting POSiTrad...
+2025-06-13 21:13:49,324 - LINE - ________________________________________________________________________________
+2025-06-13 21:13:49,324 - INFO - Launching GUI...
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:49,401 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,436 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,436 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,436 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,436 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,437 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,438 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,438 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,438 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,438 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,438 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,438 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,438 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,439 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,439 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,439 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,439 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,439 - DEBUG - Found 5 existing backups.
+2025-06-13 21:13:53,439 - DEBUG - Found 5 existing backups.
+2025-06-13 21:14:00,320 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:14:00,320 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:14:00,320 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:14:00,321 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:14:00,321 - INFO - POSiTrad finished with code 0
+2025-06-13 21:15:18,254 - LINE - ________________________________________________________________________________
+2025-06-13 21:15:18,254 - LINE - ________________________________________________________________________________
+2025-06-13 21:15:18,254 - INFO - Starting POSiTrad...
+2025-06-13 21:15:18,254 - LINE - ________________________________________________________________________________
+2025-06-13 21:15:18,254 - INFO - Launching GUI...
+2025-06-13 21:15:18,348 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:18,349 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:18,349 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:18,349 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:18,349 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:18,349 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:18,349 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:18,349 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:18,349 - DEBUG - Found 5 existing backups.
+2025-06-13 21:15:23,933 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:15:23,933 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:15:23,933 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:15:23,933 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:15:23,933 - INFO - POSiTrad finished with code 0
+2025-06-13 21:16:17,356 - LINE - ________________________________________________________________________________
+2025-06-13 21:16:17,356 - LINE - ________________________________________________________________________________
+2025-06-13 21:16:17,357 - INFO - Starting POSiTrad...
+2025-06-13 21:16:17,357 - LINE - ________________________________________________________________________________
+2025-06-13 21:16:17,357 - INFO - Launching GUI...
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:17,441 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:22,333 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:16:22,333 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:16:22,334 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:16:22,334 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:16:22,334 - INFO - POSiTrad finished with code 0
+2025-06-13 21:16:34,981 - LINE - ________________________________________________________________________________
+2025-06-13 21:16:34,981 - LINE - ________________________________________________________________________________
+2025-06-13 21:16:34,981 - INFO - Starting POSiTrad...
+2025-06-13 21:16:34,981 - LINE - ________________________________________________________________________________
+2025-06-13 21:16:34,981 - INFO - Launching GUI...
+2025-06-13 21:16:35,072 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:35,072 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:35,072 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:35,072 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:35,072 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:35,073 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:35,073 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:35,073 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:35,073 - DEBUG - Found 5 existing backups.
+2025-06-13 21:16:40,485 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:16:40,485 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:16:40,486 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:16:40,486 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:16:40,486 - INFO - POSiTrad finished with code 0
+2025-06-13 21:17:16,586 - LINE - ________________________________________________________________________________
+2025-06-13 21:17:16,586 - LINE - ________________________________________________________________________________
+2025-06-13 21:17:16,587 - INFO - Starting POSiTrad...
+2025-06-13 21:17:16,587 - LINE - ________________________________________________________________________________
+2025-06-13 21:17:16,587 - INFO - Launching GUI...
+2025-06-13 21:17:19,756 - LINE - ________________________________________________________________________________
+2025-06-13 21:17:19,756 - LINE - ________________________________________________________________________________
+2025-06-13 21:17:19,756 - INFO - Starting POSiTrad...
+2025-06-13 21:17:19,756 - LINE - ________________________________________________________________________________
+2025-06-13 21:17:19,756 - INFO - Launching GUI...
+2025-06-13 21:18:04,719 - LINE - ________________________________________________________________________________
+2025-06-13 21:18:04,719 - LINE - ________________________________________________________________________________
+2025-06-13 21:18:04,719 - INFO - Starting POSiTrad...
+2025-06-13 21:18:04,719 - LINE - ________________________________________________________________________________
+2025-06-13 21:18:04,719 - INFO - Launching GUI...
+2025-06-13 21:18:40,400 - LINE - ________________________________________________________________________________
+2025-06-13 21:18:40,400 - LINE - ________________________________________________________________________________
+2025-06-13 21:18:40,400 - INFO - Starting POSiTrad...
+2025-06-13 21:18:40,400 - LINE - ________________________________________________________________________________
+2025-06-13 21:18:40,400 - INFO - Launching GUI...
+2025-06-13 21:18:40,494 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:40,494 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:40,495 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:40,495 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:40,495 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:40,495 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:40,495 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:40,495 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:40,495 - DEBUG - Found 5 existing backups.
+2025-06-13 21:18:44,915 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:18:44,915 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:18:44,916 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:18:44,916 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:18:44,916 - INFO - POSiTrad finished with code 0
+2025-06-13 21:19:49,667 - LINE - ________________________________________________________________________________
+2025-06-13 21:19:49,667 - LINE - ________________________________________________________________________________
+2025-06-13 21:19:49,667 - INFO - Starting POSiTrad...
+2025-06-13 21:19:49,667 - LINE - ________________________________________________________________________________
+2025-06-13 21:19:49,667 - INFO - Launching GUI...
+2025-06-13 21:19:49,759 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:49,759 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:49,759 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:49,759 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:49,759 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:49,759 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:49,759 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:49,760 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:49,760 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:58,575 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:19:58,575 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:19:58,576 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:19:58,576 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:19:58,576 - INFO - POSiTrad finished with code 0
+2025-06-13 21:19:59,609 - LINE - ________________________________________________________________________________
+2025-06-13 21:19:59,609 - LINE - ________________________________________________________________________________
+2025-06-13 21:19:59,609 - INFO - Starting POSiTrad...
+2025-06-13 21:19:59,609 - LINE - ________________________________________________________________________________
+2025-06-13 21:19:59,609 - INFO - Launching GUI...
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:19:59,684 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:07,833 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:20:07,833 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:20:07,834 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:20:07,834 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:20:07,834 - INFO - POSiTrad finished with code 0
+2025-06-13 21:20:15,856 - LINE - ________________________________________________________________________________
+2025-06-13 21:20:15,856 - LINE - ________________________________________________________________________________
+2025-06-13 21:20:15,856 - INFO - Starting POSiTrad...
+2025-06-13 21:20:15,856 - LINE - ________________________________________________________________________________
+2025-06-13 21:20:15,856 - INFO - Launching GUI...
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:15,948 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,722 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,722 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,722 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,722 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,723 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,724 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,724 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,724 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,724 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,724 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,724 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,725 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:21,725 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:24,968 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:24,969 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:24,969 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:24,969 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:24,969 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:24,969 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:24,969 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:24,969 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:27,717 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:27,717 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:27,718 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:27,718 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:27,718 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:27,718 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:27,718 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:27,718 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:29,228 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:29,228 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:29,229 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:29,229 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:29,229 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:29,229 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:29,229 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:29,229 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:30,411 - WARNING - NOT YET IMPLEMENTED
+2025-06-13 21:20:32,153 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:32,153 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:32,153 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:32,153 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:32,153 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:32,153 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:32,153 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:32,153 - DEBUG - Found 5 existing backups.
+2025-06-13 21:20:32,619 - WARNING - NOT YET IMPLEMENTED
+2025-06-13 21:20:49,781 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:20:49,781 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:20:49,782 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:20:49,782 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:20:49,782 - INFO - POSiTrad finished with code 0
+2025-06-13 21:21:52,799 - LINE - ________________________________________________________________________________
+2025-06-13 21:21:52,800 - LINE - ________________________________________________________________________________
+2025-06-13 21:21:52,800 - INFO - Starting POSiTrad...
+2025-06-13 21:21:52,800 - LINE - ________________________________________________________________________________
+2025-06-13 21:21:52,800 - INFO - Launching GUI...
+2025-06-13 21:23:52,894 - LINE - ________________________________________________________________________________
+2025-06-13 21:23:52,894 - LINE - ________________________________________________________________________________
+2025-06-13 21:23:52,894 - INFO - Starting POSiTrad...
+2025-06-13 21:23:52,894 - LINE - ________________________________________________________________________________
+2025-06-13 21:23:52,894 - INFO - Launching GUI...
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:23:52,985 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:01,431 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:24:01,431 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:24:01,432 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:24:01,432 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:24:01,432 - INFO - POSiTrad finished with code 0
+2025-06-13 21:24:23,020 - LINE - ________________________________________________________________________________
+2025-06-13 21:24:23,020 - LINE - ________________________________________________________________________________
+2025-06-13 21:24:23,020 - INFO - Starting POSiTrad...
+2025-06-13 21:24:23,020 - LINE - ________________________________________________________________________________
+2025-06-13 21:24:23,020 - INFO - Launching GUI...
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:23,094 - DEBUG - Found 5 existing backups.
+2025-06-13 21:24:35,393 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:24:35,393 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:24:35,394 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:24:35,394 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:24:35,394 - INFO - POSiTrad finished with code 0
+2025-06-13 21:26:52,388 - LINE - ________________________________________________________________________________
+2025-06-13 21:26:52,388 - LINE - ________________________________________________________________________________
+2025-06-13 21:26:52,388 - INFO - Starting POSiTrad...
+2025-06-13 21:26:52,388 - LINE - ________________________________________________________________________________
+2025-06-13 21:26:52,388 - INFO - Launching GUI...
+2025-06-13 21:26:52,481 - DEBUG - Found 5 existing backups.
+2025-06-13 21:26:52,481 - DEBUG - Found 5 existing backups.
+2025-06-13 21:26:52,481 - DEBUG - Found 5 existing backups.
+2025-06-13 21:26:52,482 - DEBUG - Found 5 existing backups.
+2025-06-13 21:26:52,482 - DEBUG - Found 5 existing backups.
+2025-06-13 21:26:52,482 - DEBUG - Found 5 existing backups.
+2025-06-13 21:26:52,482 - DEBUG - Found 5 existing backups.
+2025-06-13 21:26:52,482 - DEBUG - Found 5 existing backups.
+2025-06-13 21:26:52,482 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,820 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,820 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,820 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,820 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,821 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,822 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,822 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,822 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,822 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,822 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,822 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,822 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,823 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,823 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,823 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:37,823 - DEBUG - Found 5 existing backups.
+2025-06-13 21:53:53,331 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:53:53,331 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:53:53,331 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:53:53,331 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:53:53,331 - INFO - POSiTrad finished with code 0
+2025-06-13 21:54:07,578 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:07,578 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:07,578 - INFO - Starting POSiTrad...
+2025-06-13 21:54:07,578 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:07,578 - INFO - Launching GUI...
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:07,669 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:27,794 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:54:27,794 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:54:27,795 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:54:27,795 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:54:27,795 - INFO - POSiTrad finished with code 0
+2025-06-13 21:54:27,929 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:27,929 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:27,929 - INFO - Starting POSiTrad...
+2025-06-13 21:54:27,929 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:27,929 - INFO - Launching GUI...
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:28,006 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:35,639 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:54:35,639 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:54:35,640 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:54:35,640 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:54:35,640 - INFO - POSiTrad finished with code 0
+2025-06-13 21:54:43,818 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:43,818 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:43,818 - INFO - Starting POSiTrad...
+2025-06-13 21:54:43,818 - LINE - ________________________________________________________________________________
+2025-06-13 21:54:43,818 - INFO - Launching GUI...
+2025-06-13 21:54:43,909 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:43,909 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:43,909 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:43,909 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:43,909 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:43,910 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:43,910 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:43,910 - DEBUG - Found 5 existing backups.
+2025-06-13 21:54:43,910 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:02,966 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:55:02,966 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:55:02,966 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:55:02,967 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:55:02,967 - INFO - POSiTrad finished with code 0
+2025-06-13 21:55:56,647 - LINE - ________________________________________________________________________________
+2025-06-13 21:55:56,647 - LINE - ________________________________________________________________________________
+2025-06-13 21:55:56,647 - INFO - Starting POSiTrad...
+2025-06-13 21:55:56,647 - LINE - ________________________________________________________________________________
+2025-06-13 21:55:56,647 - INFO - Launching GUI...
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:55:56,737 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:06,426 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:56:06,426 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:56:06,426 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:56:06,426 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:56:06,427 - INFO - POSiTrad finished with code 0
+2025-06-13 21:56:28,919 - LINE - ________________________________________________________________________________
+2025-06-13 21:56:28,920 - LINE - ________________________________________________________________________________
+2025-06-13 21:56:28,920 - INFO - Starting POSiTrad...
+2025-06-13 21:56:28,920 - LINE - ________________________________________________________________________________
+2025-06-13 21:56:28,920 - INFO - Launching GUI...
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:29,011 - DEBUG - Found 5 existing backups.
+2025-06-13 21:56:40,563 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:56:40,563 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:56:40,564 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:56:40,564 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:56:40,564 - INFO - POSiTrad finished with code 0
+2025-06-13 21:57:16,112 - LINE - ________________________________________________________________________________
+2025-06-13 21:57:16,112 - LINE - ________________________________________________________________________________
+2025-06-13 21:57:16,112 - INFO - Starting POSiTrad...
+2025-06-13 21:57:16,112 - LINE - ________________________________________________________________________________
+2025-06-13 21:57:16,112 - INFO - Launching GUI...
+2025-06-13 21:57:16,202 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:16,203 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:16,203 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:16,203 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:16,203 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:16,203 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:16,203 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:16,203 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:16,203 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:23,044 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:57:23,045 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:57:23,045 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:57:23,045 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:57:23,045 - INFO - POSiTrad finished with code 0
+2025-06-13 21:57:58,917 - LINE - ________________________________________________________________________________
+2025-06-13 21:57:58,917 - LINE - ________________________________________________________________________________
+2025-06-13 21:57:58,917 - INFO - Starting POSiTrad...
+2025-06-13 21:57:58,917 - LINE - ________________________________________________________________________________
+2025-06-13 21:57:58,918 - INFO - Launching GUI...
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:57:59,008 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,431 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,431 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,431 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,431 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,432 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,433 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,433 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,433 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,433 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,433 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,433 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,434 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,434 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,434 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,434 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,434 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,434 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,434 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:08,434 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:17,336 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:58:17,336 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:58:17,337 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:58:17,337 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:58:17,337 - INFO - POSiTrad finished with code 0
+2025-06-13 21:58:27,529 - LINE - ________________________________________________________________________________
+2025-06-13 21:58:27,529 - LINE - ________________________________________________________________________________
+2025-06-13 21:58:27,529 - INFO - Starting POSiTrad...
+2025-06-13 21:58:27,529 - LINE - ________________________________________________________________________________
+2025-06-13 21:58:27,529 - INFO - Launching GUI...
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:27,620 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,857 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,858 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,858 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,858 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,858 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,859 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,860 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,860 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,860 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,860 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,860 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,860 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,861 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:33,861 - DEBUG - Found 5 existing backups.
+2025-06-13 21:58:46,651 - WARNING - NOT YET IMPLEMENTED
+2025-06-13 21:59:09,209 - INFO - Creating backup in folder: backups/ with file name: positrad-back05.zip
+2025-06-13 21:59:09,209 - INFO - Adding file trad.db to backup zip.
+2025-06-13 21:59:09,209 - DEBUG - Latest backup checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8, Current checksum: 3c23e50f4ec3e56e2ec6ad5643bfbba8
+2025-06-13 21:59:09,209 - INFO - No changes detected, skipping this file for backup.
+2025-06-13 21:59:09,209 - INFO - POSiTrad finished with code 0
+2025-06-13 21:59:09,342 - LINE - ________________________________________________________________________________
+2025-06-13 21:59:09,342 - LINE - ________________________________________________________________________________
+2025-06-13 21:59:09,342 - INFO - Starting POSiTrad...
+2025-06-13 21:59:09,342 - LINE - ________________________________________________________________________________
+2025-06-13 21:59:09,342 - INFO - Launching GUI...
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:09,418 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,059 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,059 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,059 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,059 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,060 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,061 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,061 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,061 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,061 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,061 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,061 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,062 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,062 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,062 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,062 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,062 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,062 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,062 - DEBUG - Found 5 existing backups.
+2025-06-13 21:59:18,062 - DEBUG - Found 5 existing backups.

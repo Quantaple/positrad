@@ -18,7 +18,7 @@ from ItemModel import TranslatableModel
 
 ORG_NAME = "CLSInfo"
 APP_NAME = "POSiTrad"
-VERSION = "alpha 0.1.1"
+VERSION = "alpha 0.1.2"
 
 DB_PATH = "trad.db"
 """ Default location of the POSiTrad database """
@@ -57,7 +57,10 @@ parser.add_argument("--reset-settings",
 # ============================================================================
 
 if __name__ == "__main__":
+    logger.line() # type: ignore
+    logger.line() # type: ignore
     logger.info("Starting POSiTrad...")
+    logger.line() # type: ignore
 
     # Check for the POSiTrad database; create if it doesn't exist
     if not os.path.isfile(DB_PATH):
@@ -134,6 +137,7 @@ if __name__ == "__main__":
         backupCount=backupCount, # type: ignore
         filesToBackup=[DB_PATH]
     )
+    engine.rootContext().setContextProperty("backupManager", backupManager)
     
     engine.load(qml_file)
     

@@ -764,8 +764,6 @@ Window {
                                 }
                             }
 
-
-
                             Switch {
                                 text: qsTr("Activer l'option 'Générer la traduction et quitter'")
                                 checked: window.allowGenerateAndQuit
@@ -778,6 +776,65 @@ Window {
                     GroupBox {
                         title: qsTr("Copies de sauvegarde")
                         width: window.width - 64
+
+                        Popup {
+                            id: backupRestorePopup
+                            parent: Overlay.overlay
+                            anchors.centerIn: parent
+                            //width: window.width*0.8
+                            //height: window.height*0.8
+
+                            modal: true
+                            focus: true
+                            closePolicy: Popup.CloseOnEscape
+
+                            contentItem: Column {
+                                spacing: 16
+                                Label {
+                                    text: qsTr("Restaurer une copie de sauvegarde")
+                                    font.pointSize: 16
+                                    font.bold: true
+                                    color: Material.primary
+                                }
+                                Label {
+                                    text: qsTr("Voici une liste des copies de sauvegarde que vous pouvez remettre en place:")
+                                }
+                                ComboBox {
+                                    id: backupRestoreComboBox
+                                    width: parent.width
+                                    model: backupManager
+                                    textRole: "LastModified"
+                                    valueRole: "Path"
+                                }
+
+                                Row {
+                                    spacing: 32
+                                    Button {
+                                        icon.source: "assets/close.svg"
+                                        icon.color: Material.color(Material.Red)
+                                        flat: true
+                                        width: 96
+                                        height: 96
+
+                                        onClicked: backupRestorePopup.close()
+                                    }
+                                    Button {
+                                        text: qsTr("Restaurer")
+                                        icon.source: "assets/check.svg"
+                                        icon.color: Material.color(Material.Green)
+                                        width: 192
+                                        height: 96
+                                        onClicked: {
+                                            console.log(backupRestoreComboBox.currentValue)
+                                            backupManager.restore(backupRestoreComboBox.currentValue)
+                                        }
+                                    }
+                                }
+                            }
+                            
+
+                        }
+
                         Column {
                             anchors.left: parent.left
                             anchors.right: parent.right
@@ -803,8 +860,6 @@ Window {
                                 }
                             }
 
-
-
                             TextField {
                                 id: backupPathTextField
                                 width: 400
@@ -827,6 +882,13 @@ Window {
                                         })
                                     }
                                 }
+                            }
+
+                            Button {
+                                text: qsTr("Restaurer une copie de sauvegarde")
+                                icon.source: "assets/settings_backup_restore.svg"
+
+                                onClicked: backupRestorePopup.open()
                             }
                         }
                     }
